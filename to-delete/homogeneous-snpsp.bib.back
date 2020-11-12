@@ -1,0 +1,1908 @@
+@Article{HSNP-A,
+author="Song, Tao
+and Wang, Xun
+and Zhang, Zhujin
+and Chen, Zhihua",
+title="Homogenous spiking neural P systems with anti-spikes",
+journal="Neural Computing and Applications",
+year="2014",
+month="Jun",
+day="01",
+volume="24",
+number="7",
+pages="1833--1841",
+abstract="Spiking neural P systems with anti-spikes (ASN P systems, for short) are a class of neural-like computing models in membrane computing, which are inspired by neurons communication through both excitatory and inhibitory impulses (spikes). In this work, we consider a restricted variant of ASN P systems, called homogeneous ASN P systems, where any neuron has the same set of spiking and forgetting rules. As a result, we prove that such systems can achieve Turing completeness. Specifically, it is proved that two categories of pure form of spiking rules (for a spiking rule, if the language corresponding to the regular expression that controls its application is exactly the form of spikes consumed by the rule, then the rule is called pure) are sufficient to compute and accept the family of sets of Turing computable natural numbers.",
+issn="1433-3058",
+doi="10.1007/s00521-013-1397-8",
+url="https://doi.org/10.1007/s00521-013-1397-8"
+}
+
+
+@article{HSNP-R,
+  doi = {10.1016/j.neucom.2015.07.097},
+  url = {https://doi.org/10.1016/j.neucom.2015.07.097},
+  year = {2016},
+  month = jan,
+  publisher = {Elsevier {BV}},
+  volume = {171},
+  pages = {1548--1555},
+  author = {Keqin Jiang and Wenli Chen and Yuzhou Zhang and Linqiang Pan},
+  title = {Spiking neural P systems with homogeneous neurons and synapses},
+  journal = {Neurocomputing}
+}
+
+@article{HSNP,
+ author = {Zeng, Xiangxiang and Zhang, Xingyi and Pan, Linqiang},
+ title = {Homogeneous Spiking Neural P Systems},
+ journal = {Fundam. Inf.},
+ issue_date = {January 2009},
+ volume = {97},
+ number = {1-2},
+ month = jan,
+ year = {2009},
+ issn = {0169-2968},
+ pages = {275--294},
+ numpages = {20},
+ url = {http://dl.acm.org/citation.cfm?id=1735979.1735990},
+ acmid = {1735990},
+ publisher = {IOS Press},
+ address = {Amsterdam, The Netherlands, The Netherlands},
+ keywords = {Membrane computing, Register machine, Spiking neural P system},
+}
+
+@article{HSNP-S,
+author = { Keqin   Jiang  and  Tao   Song  and  Wei   Chen  and  Linqiang   Pan },
+title = {{\textsc Homogeneous spiking neural P systems working in sequential mode induced by maximum spike number}},
+journal = {International Journal of Computer Mathematics},
+volume = {90},
+number = {4},
+pages = {831-844},
+year = {2013},
+//doi = {10.1080/00207160.2012.737462},
+
+//URL = { 
+        http://dx.doi.org/10.1080/00207160.2012.737462
+    
+},
+//eprint = { 
+        http://dx.doi.org/10.1080/00207160.2012.737462
+    
+}
+
+}
+
+@Article{HISNP,
+author="Song, Tao
+and Wang, Xun",
+title="Homogenous Spiking Neural P Systems with Inhibitory Synapses",
+journal="Neural Processing Letters",
+year="2015",
+month="Aug",
+day="01",
+volume="42",
+number="1",
+pages="199--214",
+abstract="Spiking neural P systems with inhibitory synapses (ISN P systems, for short) are a class of discrete neural-like computing models, which are inspired by the way of biological neurons storing and processing information and communication by means of excited and inhibitory impulses. In this work, we prove that ISN P systems can compute and accept any set of Turing computable numbers by using one type of neurons, thus can achieve Turing universality. Such systems are called homogenous ISN P systems. The results give a positive answer to an open problem left in (Pan and P{\u{a}}un, Int J Comput Commun 4(3):273--282, 2009) that ``whether the number of types of neurons in universal SN P systems can be decreased by using inhibitory synapses''. The obtained result is optimal in the sense of having minimal number of types of neurons in Turing universal SN P systems.",
+issn="1573-773X",
+doi="10.1007/s11063-014-9352-y",
+url="https://doi.org/10.1007/s11063-014-9352-y"
+}
+
+
+@ARTICLE{ZENGOP, 
+author={X. Zeng and T. Song and X. Zhang and L. Pan}, 
+journal={IEEE Transactions on NanoBioscience}, 
+title={Performing Four Basic Arithmetic Operations With Spiking Neural P Systems}, 
+year={2012}, 
+volume={11}, 
+number={4}, 
+pages={366-374}, 
+keywords={biomedical equipment;medical computing;neurophysiology;SN P systems;basic arithmetic operations;binary encoding mechanism;bio-inspired computing devices;electronic circuits;spiking neural P systems;Binary codes;Encoding;Neurons;Arithmetic operation;membrane computing;spiking neural P system;Computer Simulation;Models, Neurological;Neural Networks (Computer);Neurons;Synapses}, 
+doi={10.1109/TNB.2012.2211034}, 
+ISSN={1536-1241}, 
+month={Dec},}
+
+@article{SNP,
+ author = {Ionescu, Mihai and P\u{a}un, {\relax Gh}eorghe and Yokomori, Takashi},
+ title = "{Spiking Neural P Systems}",
+ journal = {Fundam. Inf.},
+ issue_date = {August 2006},
+ volume = {71},
+ number = {2,3},
+ month = feb,
+ year = {2006},
+ issn = {0169-2968},
+ pages = {279--308},
+ numpages = {30},
+ acmid = {1227513},
+ publisher = {IOS Press},
+ address = {Amsterdam, The Netherlands, The Netherlands},
+ keywords = {Spiking neurons, Turing computability, membrane computing, semilinear set}
+} 
+
+@incollection{ESNP,
+//doi = {10.1007/11963516_8},
+//url = {https://doi.org/10.1007/11963516_8},
+  year  = {2006},
+  publisher = {Springer Berlin Heidelberg},
+  pages = {123--134},
+  author = {Artiom Alhazov and Rudolf Freund and Marion Oswald and Marija Slavkovik},
+  title = "{Extended Spiking Neural P Systems}",
+  booktitle = {Membrane Computing}
+}
+
+@article{ARITHMETIC,
+  doi = {10.1109/tnb.2012.2211034},
+  url = {https://doi.org/10.1109/tnb.2012.2211034},
+  year  = {2012},
+  month = {dec},
+  publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+  volume = {11},
+  number = {4},
+  pages = {366--374},
+  author = {Xiangxiang Zeng and  Tao Song and  Xingyi Zhang and  Linqiang Pan},
+  title = {Performing Four Basic Arithmetic Operations With Spiking Neural P Systems},
+  journal = {{IEEE} Transactions on {NanoBioscience}}
+}
+
+
+@Article{SNPSP,
+author="Cabarle, Francis George C.
+and Adorna, Henry N.
+and P{\'e}rez-Jim{\'e}nez, Mario J.
+and Song, Tao",
+title="{Spiking Neural P Systems with Structural Plasticity}",
+journal="Neural Computing and Applications",
+year="2015",
+volume="26",
+number="8",
+pages="1905--1917",
+abstract="Spiking neural P (SNP) systems are a class of parallel, distributed, and nondeterministic computing models inspired by the spiking of biological neurons. In this work, the biological feature known as structural plasticity is introduced in the framework of SNP systems. Structural plasticity refers to synapse creation and deletion, thus changing the synapse graph. The ``programming'' therefore of a brain-like model, the SNP system with structural plasticity (SNPSP system), is based on how neurons connect to each other. SNPSP systems are also a partial answer to an open question on SNP systems with dynamism only for synapses. For both the accepting and generative modes, we prove that SNPSP systems are universal. Modifying SNPSP systems semantics, we introduce the spike saving mode and prove that universality is maintained. In saving mode, however, a deadlock state can arise, and we prove that reaching such a state is undecidable. Lastly, we provide one technique in order to use structural plasticity to solve a hard problem: a constant time, nondeterministic, and semi-uniform solution to the NP-complete problem Subset Sum.",
+issn="1433-3058"
+}
+
+
+@article{SNP-LANGUAGE,
+  author    = {Haiming Chen and
+               Rudolf Freund and
+               Mihai Ionescu and
+               {\relax Gh}eorghe P\u{a}un and
+               Mario J. P{\'{e}}rez{-}Jim{\'{e}}nez},
+  title     = "{On String Languages Generated by Spiking Neural P Systems}",
+  journal   = {Fundam. Inform.},
+  volume    = {75},
+  number    = {1-4},
+  pages     = {141--162},
+  year      = {2007},
+  timestamp = {Mon, 18 May 2015 17:23:15 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/fuin/ChenFIPP07},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@book{MINSKY,
+ author = {Minsky, Marvin L.},
+ title = "{Computation: Finite and Infinite Machines}",
+ year = {1967},
+ isbn = {0-13-165563-9},
+ publisher = {Prentice-Hall, Inc.},
+ address = {Upper Saddle River, NJ, USA}
+}
+
+@Inbook{SNP-RESULTS,
+author="P{\u{a}}un, {\relax Gh}eorghe
+and P{\'e}rez-Jim{\'e}nez, Mario J.",
+editor="Condon, Anne
+and Harel, David
+and Kok, Joost N.
+and Salomaa, Arto
+and Winfree, Erik",
+title="{Spiking Neural P Systems. Recent Results, Research Topics}",
+bookTitle="Algorithmic Bioprocesses",
+year="2009",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="273--291",
+isbn="978-3-540-88869-7",
+}
+
+@book{HANDBOOK,
+ author = {P\u{a}un, {\relax Gh}eorghe and Rozenberg, Grzegorz and Salomaa, Arto},
+ title = "{The Oxford Handbook of Membrane Computing}",
+ year = {2010},
+ isbn = {0199556679, 9780199556670},
+ publisher = {Oxford University Press, Inc.},
+ address = {New York, NY, USA}
+}
+
+@Article{SNP-EXTEND,
+author="Chen, Haiming
+and Ionescu, Mihai
+and Ishdorj, Tseren-Onolt
+and P{\u{a}}un, Andrei
+and P{\u{a}}un, {\relax Gh}eorghe
+and P{\'e}rez-Jim{\'e}nez, Mario J.",
+title="{Spiking Neural P Systems with Extended Rules: Universality and Languages}",
+journal="Natural Computing",
+year="2008",
+volume="7",
+number="2",
+pages="147--166",
+issn="1572-9796"
+}
+
+@Article{SNP-NEUROGEN,
+author="Pan, LinQiang
+and P{\u{a}}un, {\relax Gh}eorghe
+and P{\'e}rez-Jim{\'e}nez, Mario J.",
+title="{Spiking Neural P Systems with Neuron Division and Budding}",
+journal="Science China Information Sciences",
+year="2011",
+volume="54",
+number="8",
+pages="1596",
+issn="1869-1919"
+}
+
+@article{SNP-ASTRO,
+  year  = {2012},
+  month = {mar},
+  publisher = {{MIT} Press - Journals},
+  volume = {24},
+  number = {3},
+  pages = {805--825},
+  author = {Linqiang Pan and Jun Wang and Hendrik Jan Hoogeboom},
+  title = "{Spiking Neural P Systems with Astrocytes}",
+  journal = {Neural Computation}
+}
+
+@Inbook{SNP-ASTRO-LANG,
+author="Kong, Yuan
+and Zhang, Zheng
+and Liu, Yang",
+title="{On String Languages Generated by Spiking Neural P Systems with Astrocytes}",
+bookTitle="Bio-Inspired Computing - Theories and Applications: 9th International Conference, BIC-TA 2014, Wuhan, China, October 16-19, 2014. Proceedings",
+year="2014",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="225--229",
+isbn="978-3-662-45049-9"
+}
+
+
+@ARTICLE{SNP-ANTI,
+author={Pan, L. and P{\u{a}}un, {\relax Gh}},
+title="{Spiking Neural P systems with Anti-Spikes}",
+journal={International Journal of Computers, Communications and Control},
+year={2009},
+volume={4},
+number={3},
+pages={273-282},
+note={cited By 81},
+}
+
+@article{SNP-ANTI-LANG,
+author = {Krithivasan, Kamala and Metta, Venkata Padmavati and Garg, Deepak},
+title = "{On String Languages Generated by Spiking Neural P Systems with Anti-Spikes}",
+journal = {International Journal of Foundations of Computer Science},
+volume = {22},
+number = {01},
+pages = {15-27},
+year = {2011}
+}
+
+@article{LeporatiOP,
+ author = {Miguel A. Gutiérrez-Naranjo and Alberto Leporati},
+ title = "{First Steps Towards a CPU Made of Spiking Neural P Systems}",
+ journal = {International Journal of Computers, Communications and Control},
+ volume = {4},
+ number = {3},
+ month = Dec,
+ year = {2009},
+ pages = {244--252}
+}
+
+@article{Paper1,
+ author = {Ren Tristan A. de la Cruz and Francis George C. Cabarle and Xiangxiang Zeng},
+ title = "{On Languages Generated by Spiking Neural P {Systems} with Structural Plasticity}",
+ journal = {Proceedings of the 18th International Conference on Membrane Computing (CMC18)},
+ year = {2017},
+}
+
+@inproceedings{SIGNEDINTOP,
+  author={Gao, Xi and Chen, Hai Zhu},
+  title={Signed Integer Arithmetic on Spiking Neural P System},
+  year={2010},
+  month={1},
+  volume={20},
+  pages={779--784},
+  booktitle={Information Technology for Manufacturing Systems},
+  series={Applied Mechanics and Materials},
+  publisher={Trans Tech Publications},
+  doi={10.4028/www.scientific.net/AMM.20-23.779},
+  keywords={Spiking Neural P Systems, Membrane Computing, Arithmetic Operation, Signed Integer Arithmetic}
+}
+
+@article{tristan-cmc2017,
+ author = {Ren Tristan A. de la Cruz and  Francis George C. Cabarle and 
+Xiangxiang Zeng},
+ title = {{\textsc On Languages Generated by Spiking Neural P {Systems} with Structural Plasticity}},
+ journal = {Pre-proc. 18th International Conference on Membrane Computing 24--28 July, 2017, Bradford, UK},
+ year = {2017},
+ pages = {115--132},
+}
+
+@INPROCEEDINGS{wsnpsp-maxs-2016, 
+author={M. Sun and J. Qu}, 
+booktitle={2016 8th International Conference on Information Technology in Medicine and Education (ITME)}, 
+title={Weighted Spiking Neural P Systems with Structural Plasticity Working in Maximum Spiking Strategy}, 
+year={2016}, 
+pages={355-359}, 
+keywords={biocomputing;neural nets;SNPSP systems;maximum spiking strategy;structural plasticity;weighted spiking neural p systems;Biomembranes;Computational modeling;Fires;Neurons;Registers;Tools;Wireless sensor networks;Computational universality;Membrane computing;Sequential mode;Spiking neural P systems;Structural plasticity;Weighted synapses}, 
+//doi={10.1109/ITME.2016.0086}, 
+month={Dec},}
+
+@Article{paun2007-quick-mcsnp,
+author="P{\u{a}}un, Gheorghe",
+title={{\textsc A quick overview of membrane computing with some details about spiking neural P systems}},
+journal="Frontiers of Computer Science in China",
+year="2007",
+month="Feb",
+day="01",
+volume="1",
+number="1",
+pages="37--49",
+abstract="We briefly present the basic elements of membrane computing, a branch of natural computing inspired by the structure and functioning of living cells, then we give some details about spiking neural P systems, a class of membrane systems recently introduced, with motivations related to the way neurons communicate by means of spikes. In both cases, of general P systems and of spiking neural P systems, we introduce the fundamental concepts, give a few examples, then recall the types of results and of applications. A series of bibliographical references are provided.",
+issn="1673-7466",
+//doi="10.1007/s11704-007-0005-4",
+//url="https://doi.org/10.1007/s11704-007-0005-4"
+}
+
+@article{SNP-ANTI-LANG,
+author = {Krithivasan, Kamala and Metta, Venkata Padmavati and Garg, Deepak},
+title = "{On String Languages Generated by Spiking Neural P Systems with Anti-Spikes}",
+journal = {International Journal of Foundations of Computer Science},
+volume = {22},
+number = {01},
+pages = {15-27},
+year = {2011}
+}
+
+@ARTICLE{snp-astroc-jour2015,
+author={Kong, Y. and Zhang, Z. and Liu, Y.},
+title={{\textsc On string languages generated by spiking neural P systems with astrocytes}},
+journal={Fundamenta Informaticae},
+year={2015},
+volume={136},
+number={3},
+pages={231-240},
+//doi={10.3233/FI-2015-1154},
+//note={cited By 0},
+//url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-84922830096&doi=10.3233%2fFI-2015-1154&partnerID=40&md5=a0c53a8f558b348d48b9b226f7fbd698},
+document_type={Article},
+//source={Scopus},
+}
+
+@Inbook{SNP-ASTRO-LANG,
+author="Kong, Yuan
+and Zhang, Zheng
+and Liu, Yang",
+title="{On String Languages Generated by Spiking Neural P Systems with Astrocytes}",
+bookTitle="Bio-Inspired Computing - Theories and Applications: 9th International Conference, BIC-TA 2014, Wuhan, China, October 16-19, 2014. Proceedings",
+year="2014",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="225--229",
+isbn="978-3-662-45049-9"
+}
+
+
+
+@article{SNP-LANGUAGE,
+  author    = {Haiming Chen and
+               Rudolf Freund and
+               Mihai Ionescu and
+               {\relax Gh}eorghe P\u{a}un and
+               Mario J. P{\'{e}}rez{-}Jim{\'{e}}nez},
+  title     = "{On String Languages Generated by Spiking Neural P Systems}",
+  journal   = {Fundam. Inform.},
+  volume    = {75},
+  number    = {1-4},
+  pages     = {141--162},
+  year      = {2007},
+  timestamp = {Mon, 18 May 2015 17:23:15 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/fuin/ChenFIPP07},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@ARTICLE{song-pan-rulsyn-maxspik-2015,
+author={Song, T. and Pan, L.},
+title={Spiking neural \uppercase{P} systems with rules on synapses working in maximum spikes consumption strategy},
+journal={IEEE Transactions on Nanobioscience},
+year={2015},
+volume={14},
+number={1},
+pages={37-43},
+//doi={10.1109/TNB.2014.2367506},
+//art_number={6949147},
+//note={cited By 42},
+//url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-84923930859&doi=10.1109%2fTNB.2014.2367506&partnerID=40&md5=6113deba1f3dc39b7c26e638f8305f21},
+//document_type={Article},
+//source={Scopus},
+}
+
+@ARTICLE{gutierrez-cpu-snp2009,
+author={Guti{\'e}rrez-Naranjo, M.A. and Leporati, A.},
+title={{\textsc First steps towards a \uppercase{CPU} made of spiking neural P systems}},
+journal={International Journal of Computers, Communications and Control},
+year={2009},
+volume={4},
+number={3},
+pages={244-252},
+//note={cited By 15},
+//url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-67650496964&partnerID=40&md5=e40c3f95b96a7f4aea8b10a644326c74},
+document_type={Article},
+//source={Scopus},
+}
+
+@ARTICLE{liu-timefree-arith-2015,
+author={Liu, X. and Li, Z. and Liu, J. and Liu, L. and Zeng, X.},
+title={{\textsc Implementation of Arithmetic Operations with Time-Free Spiking Neural P Systems}},
+journal={IEEE Transactions on Nanobioscience},
+year={2015},
+volume={14},
+number={6},
+pages={617-624},
+//doi={10.1109/TNB.2015.2438257},
+art_number={7114325},
+//note={cited By 10},
+//url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-84940976498&doi=10.1109%2fTNB.2015.2438257&partnerID=40&md5=83e54b216b34938f2b89a59e50f91187},
+document_type={Article},
+source={Scopus},
+}
+
+@ARTICLE{wu-cellsnp-2016,
+author={Wu, T. and Zhang, Z. and Pan, L.},
+title={{\textsc On languages generated by cell-like spiking neural P systems}},
+journal={IEEE Transactions on Nanobioscience},
+year={2016},
+volume={15},
+number={5},
+pages={455-467},
+//doi={10.1109/TNB.2016.2562039},
+art_number={7464350},
+//note={cited By 0},
+//url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-84992092179&doi=10.1109%2fTNB.2016.2562039&partnerID=40&md5=58b6b47026ba16f9d175bf876423cf5a},
+document_type={Article},
+source={Scopus},
+}
+
+@ARTICLE{zeng-snp-arithm-2012,
+author={Zeng, X. and Song, T. and Zhang, X. and Pan, L.},
+title={{\textsc Performing four basic arithmetic operations with spiking neural P systems}},
+journal={IEEE Transactions on Nanobioscience},
+year={2012},
+volume={11},
+number={4},
+pages={366-374},
+//doi={10.1109/TNB.2012.2211034},
+//art_number={6261550},
+//note={cited By 15},
+//url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-84870917006&doi=10.1109%2fTNB.2012.2211034&partnerID=40&md5=1d595fcfec28e35c890d6a6bced19819},
+document_type={Article},
+source={Scopus},
+}
+
+@ARTICLE{string-snp-exhaus-2008,
+author={Zhang, X. and Zeng, X. and Pan, L.},
+title={On string languages generated by spiking neural P systems with exhaustive use of rules},
+journal={Natural Computing},
+year={2008},
+volume={7},
+number={4},
+pages={535-549},
+//doi={10.1007/s11047-008-9079-7},
+//note={cited By 34},
+//url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-56449122012&doi=10.1007%2fs11047-008-9079-7&partnerID=40&md5=f69ed5556414026275531f6b60016dd2},
+//document_type={Article},
+//source={Scopus},
+}
+
+@ARTICLE{pan-snp-exhaust-2011,
+author={Pan, L. and Zeng, X.},
+title={{\textsc Small universal spiking neural P systems working in exhaustive mode}},
+journal={IEEE Transactions on Nanobioscience},
+year={2011},
+volume={10},
+number={2},
+pages={99-105},
+//doi={10.1109/TNB.2011.2160281},
+art_number={5934420},
+//note={cited By 40},
+//url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-80051735023&doi=10.1109%2fTNB.2011.2160281&partnerID=40&md5=9849bf933acfb0e410787a001ac7a3a7},
+document_type={Article},
+source={Scopus},
+}
+
+
+
+
+
+
+
+
+
+
+@article{song-snpsp-2015,
+author = {Tao Song and Linqiang Pan},
+title = {{\textsc A normal form of spiking neural P systems with structural plasticity}},
+journal = {International Journal of Swarm Intelligence},
+volume = {1},
+number = {4},
+pages = {344-357},
+year = {2015},
+//doi = {10.1504/IJSI.2015.072889},
+//URL = { 
+        http://www.inderscienceonline.com/doi/abs/10.1504/IJSI.2015.072889
+    
+},
+//eprint = { 
+        http://www.inderscienceonline.com/doi/pdf/10.1504/IJSI.2015.072889
+    
+},
+
+}
+
+
+
+@ARTICLE{pan-timefree-snp-2011,
+author={Pan, L. and Zeng, X. and Zhang, X.},
+title={{\textsc Time-free spiking neural P systems}},
+journal={Neural Computation},
+year={2011},
+volume={23},
+number={5},
+pages={1320-1342},
+//doi={10.1162/NECO_a_00115},
+//note={cited By 65},
+//url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-79958292214&doi=10.1162%2fNECO_a_00115&partnerID=40&md5=fd7c2a0708efdf4d7ec0c157c8fe6acd},
+//document_type={Letter},
+//source={Scopus},
+}
+
+@ARTICLE{maass-computespike-2002,
+author={Maass, W.},
+title={Computing with spikes},
+journal={Special Issue on Foundations of Information Processing
+of TELEMATIK},
+year={2002},
+volume={8},
+number={1},
+pages={32--36},
+//doi={10.1016/j.tcs.2014.09.006},
+//note={cited By 0},
+//url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-84926302206&doi=10.1016%2fj.tcs.2014.09.006&partnerID=40&md5=9c22374e596b5f6ed11e1b6bbc3a3cde},
+//document_type={Article},
+//source={Scopus},
+}
+
+@book{maass-pulsenet-1999,
+ editor = {Maass, Wolfgang and Bishop, Christopher M.},
+ title = {Pulsed Neural Networks},
+ year = {1999},
+ isbn = {0-626-13350-4},
+ publisher = {MIT Press},
+ address = {Cambridge, MA, USA},
+} 
+
+@book{minsky-fininfin-1967,
+ author = {Minsky, Marvin L.},
+ title = {Computation: Finite and Infinite Machines},
+ year = {1967},
+ isbn = {0-13-165563-9},
+ publisher = {Prentice-Hall, Inc.},
+ address = {Upper Saddle River, NJ, USA},
+} 
+
+@ARTICLE{neary-3small-2015,
+author={Neary, T.},
+title={{\textsc Three small universal spiking neural P systems}},
+journal={Theoretical Computer Science},
+year={2015},
+volume={567},
+number={C},
+pages={2-20},
+doi={10.1016/j.tcs.2014.09.006},
+//note={cited By 0},
+//url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-84926302206&doi=10.1016%2fj.tcs.2014.09.006&partnerID=40&md5=9c22374e596b5f6ed11e1b6bbc3a3cde},
+document_type={Article},
+source={Scopus},
+}
+
+@ARTICLE{zhang-smaller-snp-2008,
+author={Zhang, X. and Zeng, X. and Pan, L.},
+title={{\textsc Smaller universal spiking neural P systems}},
+journal={Fundamenta Informaticae},
+year={2008},
+volume={87},
+number={1},
+pages={117-136},
+//note={cited By 41},
+//url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-58149317293&partnerID=40&md5=8f10deaa64573e4ab481b31e868ed1cd},
+document_type={Article},
+source={Scopus},
+}
+
+@ARTICLE{paun-small-snp-2007,
+author={P{\u a}un, A. and P{\u a}un, G.},
+title={{\textsc Small universal spiking neural P systems}},
+journal={BioSystems},
+year={2007},
+volume={90},
+number={1},
+pages={48-60},
+doi={10.1016/j.biosystems.2006.06.006},
+//note={cited By 84},
+//url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-34447104983&doi=10.1016%2fj.biosystems.2006.06.006&partnerID=40&md5=6e20f48a805aadd336d26782b7f32fec},
+document_type={Article},
+source={Scopus},
+}
+
+
+@ARTICLE{zeng-smallsimple-snp-weights-2014,
+author={Zeng, X.X. and Pan, L.Q. and P{\'e}rez-Jim{\'e}nez, M.J.},
+title={{\textsc Small universal simple spiking neural P systems with weights}},
+journal={Science China Information Sciences},
+year={2014},
+volume={57},
+number={9},
+pages={1-11},
+//doi={10.1007/s11432-013-4848-z},
+//note={cited By 10},
+//url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-84906320787&doi=10.1007%2fs11432-013-4848-z&partnerID=40&md5=896468b94597d98a05b35b2723ecda3c},
+document_type={Article},
+//source={Scopus},
+}
+
+@CONFERENCE{pan-small-asynsnp-2010,
+author={Pan, L. and Zeng, X. and Zhang, X.},
+title={{\textsc Small universal asynchronous spiking neural P systems}},
+journal={Proceedings 2010 IEEE 5th International Conference on Bio-Inspired Computing: Theories and Applications, BIC-TA 2010},
+year={2010},
+pages={622-630},
+//doi={10.1109/BICTA.2010.5645197},
+art_number={5645197},
+//note={cited By 2},
+//url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-78650600403&doi=10.1109%2fBICTA.2010.5645197&partnerID=40&md5=110f7f727383a5228e28dcbb37c001e9},
+document_type={Conference Paper},
+//source={Scopus},
+}
+
+
+@ARTICLE{pan-snpweight-2012,
+author={Pan, L. and Zeng, X. and Zhang, X. and Jiang, Y.},
+title={{\textsc Spiking neural P systems with weighted synapses}},
+journal={Neural Processing Letters},
+year={2012},
+volume={35},
+number={1},
+pages={13-27},
+doi={10.1007/s11063-011-9201-1},
+//note={cited By 30},
+}
+
+@ARTICLE{wang-faultelec-frsnp-2015,
+author={Wang, T. and Zhang, G. and Zhao, J. and He, Z. and Wang, J. and Perez-Jimenez, M.J.},
+title={{\textsc Fault diagnosis of electric power systems based on fuzzy reasoning spiking neural P systems}},
+journal={IEEE Transactions on Power Systems},
+year={2015},
+volume={30},
+number={3},
+pages={1182-1194},
+doi={10.1109/TPWRS.2014.2347699},
+art_number={6887379},
+//note={cited By 16},
+document_type={Article},
+source={Scopus},
+}
+
+@ARTICLE{wang-fuzzsnp-fault-2014,
+author={Wang, T. and Zhang, G. and Rong, H. and P{\'e}rez-Jim{\'e}nez, M.J.},
+title={{\textsc Application of fuzzy reasoning spiking neural P systems to fault diagnosis}},
+journal={International Journal of Computers, Communications and Control},
+year={2014},
+volume={9},
+number={6},
+pages={786-799},
+//note={cited By 9},
+document_type={Article},
+source={Scopus},
+}
+
+@article{cusnp-romjist-2017,
+author={Carandang, Jym Paul and Villaflores, John Matthew and Cabarle,  Francis George Carreon and Adorna, Henry and Mart{\'i}nez-del-Amor, Miguel {\'A}ngel},
+title={ {\textsc CuSNP: Spiking Neural P Systems Simulators in CUDA}},
+journal={Romanian Journal of Information Science and Technology},
+year={2017},
+volume={20},
+number={1},
+pages={57-70},
+}
+
+
+@CONFERENCE{wang-fuzzsnp-2010,
+author={Wang, T. and Wang, J. and Peng, H. and Deng, Y.},
+title={{\textsc Knowledge representation using fuzzy spiking neural P system}},
+journal={Proceedings 2010 IEEE 5th International Conference on Bio-Inspired Computing: Theories and Applications, BIC-TA 2010},
+year={2010},
+pages={586-590},
+doi={10.1109/BICTA.2010.5645191},
+art_number={5645191},
+//note={cited By 4},
+document_type={Conference Paper},
+source={Scopus},
+}
+
+
+@ARTICLE{cabarle-improv-gpusnp-2012,
+author={Cabarle, Francis George Carreon and Adorna, H.N. and Martinez-Del-Amor, M.A. and Perez-Jimenez, M.J.},
+title={{\textsc Improving \uppercase{GPU} simulations of spiking neural P systems}},
+journal={Romanian Journal of Information Science and Technology},
+year={2012},
+volume={15},
+number={1},
+pages={5-20},
+//note={cited By 13},
+document_type={Review},
+source={Scopus},
+}
+
+@ARTICLE{cabarle-snpcuda-cmc2012,
+author={Cabarle, Francis George Carreon and Adorna, H. and Martínez, M.A.},
+title={{\textsc A spiking neural P system simulator based on CUDA}},
+journal={Lecture Notes in Computer Science},
+year={2012},
+volume={7184 LNCS},
+pages={87-103},
+doi={10.1007/978-3-642-28024-5_8},
+////note={cited By 7},
+//////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-84856090594&doi=10.1007%2f978-3-642-28024-5_8&partnerID=40&md5=b18992836fe6a4e5a523612c31108011},
+document_type={Conference Paper},
+source={Scopus},
+}
+
+
+
+@ARTICLE{wang-snpweights-2010,
+author={Wang, J. and Hoogeboom, H.J. and Pan, L. and P{\u a}un, G. and P{\'e}rez-Jim{\'e}nez, M.J.},
+title={{\textsc Spiking neural P systems with weights}},
+journal={Neural Computation},
+year={2010},
+volume={22},
+number={10},
+pages={2615-2646},
+doi={10.1162/NECO_a_00022},
+//note={cited By 63},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-78149354843&doi=10.1162%2fNECO_a_00022&partnerID=40&md5=612616d46b9b18e4270aa226df058640},
+document_type={Letter},
+source={Scopus},
+}
+
+@ARTICLE{pan-snpweightsyn-2012,
+author={Pan, L. and Zeng, X. and Zhang, X. and Jiang, Y.},
+title={{\textsc Spiking neural P systems with weighted synapses}},
+journal={Neural Processing Letters},
+year={2012},
+volume={35},
+number={1},
+pages={13-27},
+doi={10.1007/s11063-011-9201-1},
+//note={cited By 30},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-84855824014&doi=10.1007%2fs11063-011-9201-1&partnerID=40&md5=243ec7e75caf3e32ffe4be6e31d6af3c},
+document_type={Article},
+source={Scopus},
+}
+
+@ARTICLE{zhang-lang-asynsnp-2009,
+author={Zhang, X. and Zeng, X. and Pan, L.},
+title={{\textsc On languages generated by asynchronous spiking neural P systems}},
+journal={Theoretical Computer Science},
+year={2009},
+volume={410},
+number={26},
+pages={2478-2488},
+doi={10.1016/j.tcs.2008.12.055},
+//note={cited By 27},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-67349157088&doi=10.1016%2fj.tcs.2008.12.055&partnerID=40&md5=a43819a15aef028b9e208cb8ebdd506b},
+document_type={Article},
+source={Scopus},
+}
+
+@ARTICLE{jiang-lang-seqsnp-2016,
+author={Jiang, K. and Chen, W. and Zhang, Y. and Pan, L.},
+title={{\textsc On string languages generated by sequential spiking neural P systems based on the number of spikes}},
+journal={Natural Computing},
+year={2016},
+volume={15},
+number={1},
+pages={87-96},
+doi={10.1007/s11047-015-9514-5},
+//note={cited By 0},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-84959163279&doi=10.1007%2fs11047-015-9514-5&partnerID=40&md5=23529f59ce1ff1c17d343b2182b7bb72},
+document_type={Article},
+source={Scopus},
+}
+
+
+@ARTICLE{chen-lang-snp-2007,
+author={Chen, H. and Freund, R. and Ionescu, M. and P{\u a}un, G. and P{\'e}rez-Jim{\'e}nez, M.J.},
+title={{\textsc On string languages generated by spiking neural P systems}},
+journal={Fundamenta Informaticae},
+year={2007},
+volume={75},
+number={1-4},
+pages={141-162},
+//note={cited By 66},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-33847748659&partnerID=40&md5=08512362792d7febceb57f682550e256},
+document_type={Article},
+source={Scopus},
+}
+
+@ARTICLE{ibarra-regsnp-2007,
+author={Ibarra, O.H. and Woodworth, S.},
+title={{\textsc Characterizing regular languages by spiking neural P systems}},
+journal={International Journal of Foundations of Computer Science},
+year={2007},
+volume={18},
+number={6},
+pages={1247-1256},
+doi={10.1142/S0129054107005297},
+//note={cited By 5},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-35648951245&doi=10.1142%2fS0129054107005297&partnerID=40&md5=c466a5f8f5d488012283ec444c53b1ba},
+document_type={Article},
+source={Scopus},
+}
+
+@ARTICLE{tracelang-small-snp-2016,
+author={Chen, H. and Ionescu, M. and Păun, A. and Păun, G.},
+title={On trace languages generated by (small) spiking neural P systems},
+journal={Theoretical Computer Science},
+year={2016},
+//doi={10.1016/j.tcs.2016.10.013},
+//note={cited By 0; Article in Press},
+//url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-85006759498&doi=10.1016%2fj.tcs.2016.10.013&partnerID=40&md5=caf4242e4c3b8d1cd82842fa3b6f68ff},
+document_type={Article in Press},
+//source={Scopus},
+}
+
+@CONFERENCE{tracelang-snp-2006,
+author={Chen, H. and Ionescu, M. and Pǎun, A. and Pǎun, G. and Popa, B.},
+title={On trace languages generated by (small) spiking neural P systems},
+journal={8th International Workshop on Descriptional Complexity of Formal Systems, DCFS 2006 - Proceedings},
+year={2006},
+pages={94-105},
+//note={cited By 1},
+//url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-84905868945&partnerID=40&md5=e90535d1aedb4db28a0ac38566b59d0b},
+document_type={Conference Paper},
+//source={Scopus},
+}
+
+@ARTICLE{freund-omegalang-snp-2008,
+author={Freund, R. and Oswald, M.},
+title={{\textsc Regular $\omega$-languages defined by finite extended spiking neural P systems}},
+journal={Fundamenta Informaticae},
+year={2008},
+volume={83},
+number={1-2},
+pages={65-73},
+//note={cited By 3},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-48249120045&partnerID=40&md5=77026eeb8738ccbf9ca0446abd4e9db0},
+document_type={Article},
+source={Scopus},
+}
+
+@ARTICLE{zeng-langsnp-weight-2014,
+author={Zeng, X. and Xu, L. and Liu, X. and Pan, L.},
+title={{\textsc On languages generated by spiking neural P systems with weights}},
+journal={Information Sciences},
+year={2014},
+volume={278},
+pages={423-433},
+doi={10.1016/j.ins.2014.03.062},
+//note={cited By 24},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-84901827831&doi=10.1016%2fj.ins.2014.03.062&partnerID=40&md5=6b09c5f54a16665efe2b4fede392808b},
+document_type={Article},
+source={Scopus},
+}
+
+@ARTICLE{chen-axon-2007,
+author={Chen, H. and Tseren-Onolt, I. and Gheorghe, P.},
+title={Computing along the axon},
+journal={Progress in Natural Science},
+year={2007},
+volume={17},
+number={4},
+pages={417-423},
+doi={10.1080/10020070708541018},
+//note={cited By 7},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-34248226202&doi=10.1080%2f10020070708541018&partnerID=40&md5=8a13659322ed180459c97d47e45de59b},
+document_type={Article},
+source={Scopus},
+}
+
+@article{ionescu-snp-exhaust-2007,
+  title={{\textsc Spiking Neural P Systems with an Exhaustive Use of Rules}},
+  author={Ionescu, Mihai and P{\u{a}}un, Gheorghe and Yokomori, Takashi},
+  journal={International Journal of Unconventional Computing},
+  volume={3},
+  number={2},
+  year={2007}
+}
+
+@ARTICLE{zhang-snp-gen-2014,
+author={Zhang, X. and Wang, B. and Pan, L.},
+title={{\textsc Spiking neural P systems with a generalized use of rules}},
+journal={Neural Computation},
+year={2014},
+volume={26},
+number={12},
+pages={2925-2943},
+doi={10.1162/NECO_a_00665},
+//note={cited By 20},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-84910683929&doi=10.1162%2fNECO_a_00665&partnerID=40&md5=58c49019c97512be6f14a4e082febd10},
+document_type={Letter},
+source={Scopus},
+}
+
+@ARTICLE{ibarra-seqsnp-2009,
+author={Ibarra, O.H. and P{\u a}un, A. and Rodríguez-Patón, A.},
+title={{\textsc Sequential SNP systems based on min/max spike number}},
+journal={Theoretical Computer Science},
+year={2009},
+volume={410},
+number={30-32},
+pages={2982-2991},
+doi={10.1016/j.tcs.2009.03.004},
+//note={cited By 22},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-67649934249&doi=10.1016%2fj.tcs.2009.03.004&partnerID=40&md5=89599019a8ee9c89f78c37a3bbe5bf67},
+document_type={Article},
+source={Scopus},
+}
+
+@ARTICLE{ibarra-charsnp-2008,
+author={Ibarra, O.H. and Woodworth, S.},
+title={{\textsc Characterizations of some classes of spiking neural P systems}},
+journal={Natural Computing},
+year={2008},
+volume={7},
+number={4},
+pages={499-517},
+doi={10.1007/s11047-008-9084-x},
+//note={cited By 6},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-56449124742&doi=10.1007%2fs11047-008-9084-x&partnerID=40&md5=1157463a6cb790fd21499fc8a315c20a},
+document_type={Article},
+source={Scopus},
+}
+
+@ARTICLE{chen-extsnp-2008,
+author={Chen, H. and Ionescu, M. and Ishdorj, T.-O. and P{\u a}un, A. and P{\u a}un, G. and P{\'e}rez-Jim{\'e}nez, M.J.},
+title={{\textsc Spiking neural P systems with extended rules: Universality and languages}},
+journal={Natural Computing},
+year={2008},
+volume={7},
+number={2},
+pages={147-166},
+doi={10.1007/s11047-006-9024-6},
+//note={cited By 54},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-44249113071&doi=10.1007%2fs11047-006-9024-6&partnerID=40&md5=1d749b95ecbb7adebca5af0b781e0a77},
+document_type={Conference Paper},
+source={Scopus},
+}
+
+@ARTICLE{cavaliere-snp-decid-2008,
+author={Cavaliere, M. and Egecioglu, O. and Ibarra, O.H. and Ionescu, M. and P{\u a}un, G. and Woodworth, S.},
+title={{\textsc Asynchronous spiking neural P systems: Decidability and undecidability}},
+journal={Lecture Notes in Computer Science},
+year={2008},
+volume={4848 LNCS},
+pages={246-255},
+doi={10.1007/978-3-540-77962-9_26},
+//note={cited By 9},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-49949103137&doi=10.1007%2f978-3-540-77962-9_26&partnerID=40&md5=9d8c94a07d759a2dc5b16f0418424328},
+document_type={Conference Paper},
+source={Scopus},
+}
+
+@ARTICLE{song-snp-syn-2014,
+author={Song, T. and Pan, L. and P\u{a}un, G.},
+title={{\textsc Spiking neural P systems with rules on synapses}},
+journal={Theoretical Computer Science},
+year={2014},
+volume={529},
+pages={82-95},
+doi={10.1016/j.tcs.2014.01.001},
+//note={cited By 25},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-84898053889&doi=10.1016%2fj.tcs.2014.01.001&partnerID=40&md5=9b5dc1b18b77b08f1d60f17b98fa5fc3},
+document_type={Article},
+source={Scopus},
+}
+
+@ARTICLE{song-asynloc-snp-2013,
+author={Song, T. and Pan, L. and P{\u a}un, G.},
+title={{\textsc Asynchronous spiking neural P systems with local synchronization}},
+journal={Information Sciences},
+year={2013},
+volume={219},
+pages={197-207},
+doi={10.1016/j.ins.2012.07.023},
+//note={cited By 149},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-84867573367&doi=10.1016%2fj.ins.2012.07.023&partnerID=40&md5=4d7b1150b2b6bbd3e861c63a84cdedcd},
+document_type={Article},
+source={Scopus},
+}
+
+@incollection{cabarle-asynsnpsp-2015,
+author="Cabarle, Francis George Carreon and Adorna, Henry N. and P{\'e}rez-Jim{\'e}nez, Mario J.",
+editor="Calude, Cristian S.
+and Dinneen, Michael J.",
+title={{\textsc Asynchronous Spiking Neural P Systems with Structural Plasticity}},
+bookTitle="Proc. UCNC 2015, Auckland, New Zealand, August 30 -- September 3, 2015",
+year="2015",
+publisher="Springer International Publishing",
+pages="132--143",
+isbn="978-3-319-21819-9",
+doi="10.1007/978-3-319-21819-9_9",
+//url="http://dx.doi.org/10.1007/978-3-319-21819-9_9",
+}
+
+@incollection{paun-snp-recent-2009,
+author="P{\u{a}}un, Gheorghe
+and P{\'e}rez-Jim{\'e}nez, Mario J.",
+editor="Condon, Anne
+and Harel, David
+and Kok, Joost N.
+and Salomaa, Arto
+and Winfree, Erik",
+title={{\textsc Spiking Neural P Systems. Recent Results, Research Topics}},
+bookTitle="Algorithmic Bioprocesses",
+year="2009",
+publisher="Springer Berlin Heidelberg",
+//address="Berlin, Heidelberg",
+pages="273--291",
+isbn="978-3-540-88869-7",
+doi="10.1007/978-3-540-88869-7_15",
+////url="http://dx.doi.org/10.1007/978-3-540-88869-7_15"
+}
+
+
+@ARTICLE{paun-morph-snp-2007,
+author={P{\u a}un, G. and P{\'e}rez-Jim{\'e}nez, M.J. and Rozenberg, G.},
+title={{\textsc Computing morphisms by spiking neural P systems}},
+journal={International Journal of Foundations of Computer Science},
+year={2007},
+volume={18},
+number={6},
+pages={1371-1382},
+doi={10.1142/S0129054107005418},
+//note={cited By 3},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-35648946413&doi=10.1142%2fS0129054107005418&partnerID=40&md5=d4b3ddb8bb3a5ef0776704e4153756b2},
+document_type={Article},
+source={Scopus},
+}
+
+@ARTICLE{paun-astroc-snp-2007,
+author={P{\u a}un, G.},
+title={{\textsc Spiking neural P systems with astrocyte-like control}},
+journal={Journal of Universal Computer Science},
+year={2007},
+volume={13},
+number={11},
+pages={1707-1721},
+//note={cited By 26},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-38749101307&partnerID=40&md5=29945d99223b72190d619d1f60ec58da},
+document_type={Article},
+source={Scopus},
+}
+
+@ARTICLE{pan-astro-snp-2012,
+author={Pan, L. and Wang, J. and Hoogeboom, H.J.},
+title={{\textsc Spiking neural P systems with astrocytes}},
+journal={Neural Computation},
+year={2012},
+volume={24},
+number={3},
+pages={805-825},
+doi={10.1162/NECO_a_00238},
+//note={cited By 52},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-84861127232&doi=10.1162%2fNECO_a_00238&partnerID=40&md5=abf03d0f912e0345c69e995c258ee498},
+document_type={Letter},
+source={Scopus},
+}
+
+@ARTICLE{zhao-divdiss-snp-2016,
+author={Zhao, Y. and Liu, X. and Wang, W.},
+title={{\textsc Spiking neural P systems with neuron division and dissolution}},
+journal={PLoS ONE},
+year={2016},
+volume={11},
+number={9},
+doi={10.1371/journal.pone.0162882},
+art_number={e0162882},
+//note={cited By 0},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-84990990291&doi=10.1371%2fjournal.pone.0162882&partnerID=40&md5=fab2dadbb1f256a1560795d87b053d10},
+document_type={Article},
+source={Scopus},
+}
+
+@ARTICLE{wang-div-snp-2010,
+author={Wang, J. and Hoogeboom, H.J. and Pan, L.},
+title={{\textsc Spiking neural P systems with neuron division}},
+journal={Lecture Notes in Computer Science},
+year={2010},
+volume={6501 LNCS},
+pages={361-376},
+doi={10.1007/978-3-642-18123-8-28},
+//note={cited By 5},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-79251542935&doi=10.1007%2f978-3-642-18123-8-28&partnerID=40&md5=8ffe31b6738c70c85a9b078ddcd2dce0},
+document_type={Conference Paper},
+source={Scopus},
+}
+
+@ARTICLE{pan-divbud-snp-2011,
+author={Pan, L. and P{\u a}un, G. and P{\'e}rez-Jim{\'e}nez, M.J.},
+title={{\textsc Spiking neural P systems with neuron division and budding}},
+journal={Science China Information Sciences},
+year={2011},
+volume={54},
+number={8},
+pages={1596-1607},
+doi={10.1007/s11432-011-4303-y},
+//note={cited By 81},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-79960790728&doi=10.1007%2fs11432-011-4303-y&partnerID=40&md5=9cbc1d86bf6812c397da82a192abdd9f},
+document_type={Article},
+source={Scopus},
+}
+
+@ARTICLE{pan-improv-snp-2010,
+author={Pan, L. and P{\u a}un, G.},
+title={{\textsc Spiking neural P systems: An improved normal form}},
+journal={Theoretical Computer Science},
+year={2010},
+volume={411},
+number={6},
+pages={906-918},
+doi={10.1016/j.tcs.2009.11.010},
+//note={cited By 64},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-74049127170&doi=10.1016%2fj.tcs.2009.11.010&partnerID=40&md5=7599fe8171c0ee47740bb3630d8917da},
+document_type={Article},
+source={Scopus},
+}
+
+@ARTICLE{pan-anti-snp-2009,
+author={Pan, L. and P{\u a}un, G.},
+title={{\textsc Spiking neural P systems with anti-spikes}},
+journal={International Journal of Computers, Communications and Control},
+year={2009},
+volume={4},
+number={3},
+pages={273-282},
+//note={cited By 81},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-67650479297&partnerID=40&md5=98b330a0a96c29d2861632b0b5adf1c9},
+document_type={Article},
+source={Scopus},
+}
+
+@ARTICLE{leporati-uni-snp-2009,
+author={Leporati, A. and Mauri, G. and Zandron, C. and P{\u a}un, G. and P{\'e}rez-Jim{\'e}nez, M.J.},
+title={{\textsc Uniform solutions to SAT and Subset Sum by spiking neural P systems}},
+journal={Natural Computing},
+year={2009},
+volume={8},
+number={4},
+pages={681-702},
+doi={10.1007/s11047-008-9091-y},
+//note={cited By 46},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-76849088743&doi=10.1007%2fs11047-008-9091-y&partnerID=40&md5=e561055c0b0ec6cda76c95a451261d59},
+document_type={Article},
+source={Scopus},
+}
+
+@ARTICLE{leporati-np-snp-2007,
+author={Leporati, A. and Zandron, C. and Ferretti, C. and Mauri, G.},
+title={{\textsc Solving numerical NP-complete problems with spiking neural P systems}},
+journal={Lecture Notes in Computer Science},
+year={2007},
+volume={4860 LNCS},
+pages={336-352},
+//note={cited By 36},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-38549139460&partnerID=40&md5=d4d19b9d1d7d473296c61e515364a41b},
+document_type={Conference Paper},
+source={Scopus},
+}
+
+@ARTICLE{ishdorj-qsat-snp-2010,
+author={Ishdorj, T.-O. and Leporati, A. and Pan, L. and Zeng, X. and Zhang, X.},
+title={{\textsc Deterministic solutions to QSAT and Q3SAT by spiking neural P systems with pre-computed resources}},
+journal={Theoretical Computer Science},
+year={2010},
+volume={411},
+number={25},
+pages={2345-2358},
+doi={10.1016/j.tcs.2010.01.019},
+//note={cited By 77},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-77951139500&doi=10.1016%2fj.tcs.2010.01.019&partnerID=40&md5=d26685e59f86b120a53586f704ef8986},
+document_type={Article},
+source={Scopus},
+}
+
+@ARTICLE{ibarra-norm-snp-2007,
+author={Ibarra, O.H. and P{\u a}un, A. and P{\u a}un, G. and Rodríguez-Patón, A. and Sosík, P. and Woodworth, S.},
+title={{\textsc Normal forms for spiking neural P systems}},
+journal={Theoretical Computer Science},
+year={2007},
+volume={372},
+number={2-3},
+pages={196-217},
+doi={10.1016/j.tcs.2006.11.025},
+//note={cited By 50},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-33847094584&doi=10.1016%2fj.tcs.2006.11.025&partnerID=40&md5=1afc779cf5ddfa045c83f2998bbd455d},
+document_type={Article},
+source={Scopus},
+}
+
+@ARTICLE{gutierrez-naranjo-hebbian-snp-2009,
+author={Gutiérrez-Naranjo, M.A. and P{\'e}rez-Jim{\'e}nez, M.J.},
+title={{\textsc Hebbian learning from spiking neural P systems view}},
+journal={Lecture Notes in Computer Science},
+year={2009},
+volume={5391 LNCS},
+pages={217-230},
+//doi={10.1007/978-3-540-95885-7_16},
+//note={cited By 5},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-60349099488&doi=10.1007%2f978-3-540-95885-7_16&partnerID=40&md5=54abe688f25417cd128acd1ef80f6cab},
+document_type={Conference Paper},
+//source={Scopus},
+}
+
+@ARTICLE{garcia-arnau-snp-norm-2009,
+author={García-Arnau, M. and Pérez, D. and Rodríguez-Patón, A. and Sosík, P.},
+title={{\textsc Spiking neural P systems: Stronger normal forms}},
+journal={International Journal of Unconventional Computing},
+year={2009},
+volume={5},
+number={5},
+pages={411-425},
+//note={cited By 4},
+////url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-77952508819&partnerID=40&md5=6cba36d37ce2be30184c24b32d38f655},
+document_type={Article},
+source={Scopus},
+}
+
+@article{cavaliere-asyn-snp-2009,
+title = {{\textsc Asynchronous spiking neural P systems}},
+journal = "Theoretical Computer Science",
+volume = "410",
+number = "24",
+pages = "2352 - 2364",
+year = "2009",
+note = "",
+issn = "0304-3975",
+//doi =  "http://dx.doi.org/10.1016/j.tcs.2009.02.031",
+//url = "http://www.sciencedirect.com/science/article/pii/S0304397509001807",
+author = "Matteo Cavaliere and Oscar H. Ibarra and Gheorghe Păun and Omer Egecioglu and Mihai Ionescu and Sara Woodworth",
+keywords = "Membrane computing",
+keywords = "Spiking neural P system",
+keywords = "Turing computability",
+keywords = "Counter machine",
+keywords = "Decidability"
+}
+
+@article{barbuti-snp-algebra-2010,
+title = {{\textsc Compositional semantics of spiking neural P systems}},
+journal = "The Journal of Logic and Algebraic Programming ",
+volume = "79",
+number = "6",
+pages = "304 - 316",
+year = "2010",
+//note = "Membrane computing and programming ",
+//issn = "1567-8326",
+//doi = "http://dx.doi.org/10.1016/j.jlap.2010.03.011",
+//url = "//www.sciencedirect.com/science/article/pii/S1567832610000159",
+author = "Roberto Barbuti and Andrea Maggiolo-Schettini and Paolo Milazzo and Simone Tini",
+keywords = "Spiking neural P systems",
+keywords = "Structural Operational Semantics",
+keywords = "Behavioural equivalence",
+keywords = "Congruence "
+}
+
+
+@incollection{cabarle-snppetri-2013,
+author="Cabarle, Francis George Carreon
+and Adorna, Henry N.",
+editor="Csuhaj-Varj{\'u}, Erzs{\'e}bet
+and Gheorghe, Marian
+and Rozenberg, Grzegorz
+and Salomaa, Arto
+and Vaszil, Gy{\"o}rgy",
+title={{\textsc On Structures and Behaviors of Spiking Neural P Systems and Petri Nets}},
+bookTitle="Membrane Computing: 13th International Conference, CMC 2012, Budapest, Hungary, August 28-31, 2012",
+year="2013",
+publisher="Springer Berlin Heidelberg",
+//address="Berlin, Heidelberg",
+pages="145--160",
+//isbn="978-3-642-36751-9",
+//doi="10.1007/978-3-642-36751-9_11",
+////url="http://dx.doi.org/10.1007/978-3-642-36751-9_11"
+}
+
+
+
+@article{butz-strucplas-2009,
+title = "Activity-dependent structural plasticity ",
+journal = "Brain Research Reviews ",
+volume = "60",
+number = "2",
+pages = "287 - 305",
+year = "2009",
+note = "",
+issn = "0165-0173",
+//doi =  "http://dx.doi.org/10.1016/j.brainresrev.2008.12.023",
+//url = "http://www.sciencedirect.com/science/article/pii/S0165017308001513",
+author = "Markus Butz and Florentin W{\"o}rg{\"o}tter and Arjen van Ooyen",
+keywords = "Structural Plasticity",
+keywords = "Lesion-induced plasticity",
+keywords = "Experience-dependent plasticity",
+keywords = "Synaptic rewiring",
+keywords = "Homeostasis",
+keywords = "Activity-dependent neurite outgrowth",
+keywords = "Development "
+}
+
+
+@incollection{alhazov-esnp-2006,
+author="Alhazov, Artiom
+and Freund, Rudolf
+and Oswald, Marion
+and Slavkovik, Marija",
+editor="Hoogeboom, Hendrik Jan
+and P{\u{a}}un, Gheorghe
+and Rozenberg, Grzegorz
+and Salomaa, Arto",
+title="Extended Spiking Neural P Systems",
+bookTitle="Membrane Computing: 7th International Workshop, WMC 2006, Leiden, The Netherlands, July 17-21, 2006",
+year="2006",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="123--134",
+isbn="978-3-540-69090-0",
+doi="10.1007/11963516_8",
+//url="http://dx.doi.org/10.1007/11963516_8"
+}
+
+
+
+@Article{cabarle-seqsnpsp-2016,
+author="Cabarle, Francis George Carreon
+and Adorna, Henry N.
+and P{\'e}rez-Jim{\'e}nez, Mario J.",
+title={{\textsc Sequential spiking neural P systems with structural plasticity based on max/min spike number}},
+journal="Neural Computing and Applications",
+year="2016",
+volume="27",
+number="5",
+pages="1337--1347",
+issn="1433-3058",
+doi="10.1007/s00521-015-1937-5",
+//url="http://dx.doi.org/10.1007/s00521-015-1937-5",
+}
+
+
+
+
+@Article{cabarle-snpsp-2015,
+author="Cabarle, Francis George Carreon
+and Adorna, Henry N.
+and P{\'e}rez-Jim{\'e}nez, Mario J.
+and Song, Tao",
+title="Spiking neural P systems with structural plasticity",
+journal="Neural Computing and Applications",
+year="2015",
+volume="26",
+number="8",
+pages="1905--1917",
+issn="1433-3058",
+//doi="10.1007/s00521-015-1857-4",
+//url="http://dx.doi.org/10.1007/s00521-015-1857-4",
+}
+
+
+
+
+@incollection{cabarle-snpsp-subset-2015,
+author="Cabarle, Francis George Carreon
+and Hernandez, Nestine Hope S.
+and Mart{\'i}nez-del-Amor, Miguel {\'A}ngel",
+editor="Rozenberg, Grzegorz
+and Salomaa, Arto
+and Sempere, Jos{\'e} M.
+and Zandron, Claudio",
+title={{\textsc Spiking Neural P Systems with Structural Plasticity: Attacking the Subset Sum Problem}},
+bookTitle="Membrane Computing: 16th International Conference, CMC 2015, Valencia, Spain, August 17-21, 2015",
+year="2015",
+publisher="Springer International Publishing",
+//address="Cham",
+pages="106--116",
+isbn="978-3-319-28475-0",
+//doi="10.1007/978-3-319-28475-0_8",
+//url="http://dx.doi.org/10.1007/978-3-319-28475-0_8",
+}
+
+
+
+@Article{cabarle-snpaut-2016,
+author="Cabarle, Francis George Carreon
+and Adorna, Henry N.
+and P{\'e}rez-Jim{\'e}nez, Mario J.",
+title={{\textsc Notes on spiking neural P systems and finite automata}},
+journal="Natural Computing",
+year="2016",
+volume="15",
+number="4",
+pages="533--539",
+issn="1572-9796",
+doi="10.1007/s11047-016-9563-4",
+////url="http://dx.doi.org/10.1007/s11047-016-9563-4"
+}
+
+
+
+@article{ford-dynflows-1958,
+author = {L. R. Ford, Jr. and D. R. Fulkerson},
+title = {Constructing Maximal Dynamic Flows from Static Flows},
+journal = {Operations Research},
+volume = {6},
+number = {3},
+pages = {419-433},
+year = {1958},
+//doi =  {10.1287/opre.6.3.419},
+
+//URL = { 
+        http://dx.doi.org/10.1287/opre.6.3.419
+    
+},
+//eprint = { 
+        http://dx.doi.org/10.1287/opre.6.3.419
+    
+},
+}
+
+@article {berman-vuln-schednet-1996,
+author = {Berman, Kenneth A.},
+title = {Vulnerability of scheduled networks and a generalization of Menger's Theorem},
+journal = {Networks},
+volume = {28},
+number = {3},
+publisher = {Wiley Subscription Services, Inc., A Wiley Company},
+issn = {1097-0037},
+//url = {http://dx.doi.org/10.1002/(SICI)1097-0037(199610)28:3<125::AID-NET1>3.0.CO;2-P},
+//doi =  {10.1002/(SICI)1097-0037(199610)28:3<125::AID-NET1>3.0.CO;2-P},
+pages = {125--134},
+year = {1996},
+}
+
+
+
+
+@incollection{michail-tempgraphs-2015,
+author="Michail, Othon",
+editor="Zaroliagis, Christos
+and Pantziou, Grammati
+and Kontogiannis, Spyros",
+title="An Introduction to Temporal Graphs: An Algorithmic Perspective",
+bookTitle="Algorithms, Probability, Networks, and Games: Scientific Papers and Essays Dedicated to Paul G. Spirakis on the Occasion of His 60th Birthday",
+year="2015",
+publisher="Springer International Publishing",
+//address="Cham",
+pages="308--343",
+isbn="978-3-319-24024-4",
+doi="10.1007/978-3-319-24024-4_18",
+////url="http://dx.doi.org/10.1007/978-3-319-24024-4_18"
+}
+
+
+
+@article{kempe-tempnet-2002,
+title = "Connectivity and Inference Problems for Temporal Networks",
+journal = "Journal of Computer and System Sciences",
+volume = "64",
+number = "4",
+pages = "820 - 842",
+year = "2002",
+note = "",
+issn = "0022-0000",
+//doi =  "http://dx.doi.org/10.1006/jcss.2002.1829",
+//url = "http://www.sciencedirect.com/science/article/pii/S0022000002918295",
+author = "David Kempe and Jon Kleinberg and Amit Kumar",
+
+}
+
+
+
+
+@article{casteigts-tvg-2012,
+author = { Arnaud   Casteigts  and  Paola   Flocchini  and  Walter   Quattrociocchi  and  Nicola   Santoro },
+title = {Time-varying graphs and dynamic networks},
+journal = {International Journal of Parallel, Emergent and Distributed Systems},
+volume = {27},
+number = {5},
+pages = {387-408},
+year = {2012},
+//doi =  {10.1080/17445760.2012.668546},
+
+//URL = { 
+        http://dx.doi.org/10.1080/17445760.2012.668546
+    
+},
+eprint = { 
+        http://dx.doi.org/10.1080/17445760.2012.668546
+    
+}
+}
+
+
+
+
+
+
+@article{snp-orig,
+ author = {Ionescu, Mihai and P\u{a}un, Gheorghe and Yokomori, Takashi},
+ title = {{\textsc Spiking Neural P Systems}},
+ journal = {Fundamenta Informaticae},
+ issue_date = {August 2006},
+ volume = {71},
+ number = {2,3},
+ month = feb,
+ year = {2006},
+ issn = {0169-2968},
+ pages = {279--308},
+ numpages = {30},
+//url = {http://dl.acm.org/citation.cfm?id=1227505.1227513},
+//acmid = {1227513},
+ publisher = {IOS Press},
+ address = {Amsterdam, The Netherlands, The Netherlands},
+ keywords = {Spiking neurons, Turing computability, membrane computing, semilinear set},
+} 
+
+@article{DBLP:journals/eatcs/Paun07,
+  author    = {Gheorghe P\u{a}un},
+  title     = {{\textsc Spiking Neural {P} Systems: {A} Tutorial}},
+  journal   = {Bulletin of the {EATCS}},
+  volume    = {91},
+  pages     = {145--159},
+  year      = {2007},
+  timestamp = {Tue, 20 Mar 2012 10:20:11 +0100},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/eatcs/Paun07},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@book{kirk-hwu-libro-2012,
+ author = {Kirk, David B. and Hwu, Wen-mei W.},
+ title = {{\textsc Programming Massively Parallel Processors: A Hands-on Approach}},
+ year = {2013},
+ isbn = {9780123914187},
+ edition = {2},
+ publisher = {Morgan Kaufmann Publishers Inc.},
+ address = {San Francisco, CA, USA},
+} 
+
+@article {frsnp-plingua-cuda-2015,
+	title = {{\textsc Simulating FRSN P systems with real numbers in P-Lingua on sequential and CUDA platforms}},
+	journal = {LNCS},
+	volume = {9504},
+	year = {2015},
+	pages = {227-241},
+	publisher = {Springer},
+	address = {Amsterdam, The Netherlands},
+	issn = {0302-9743},
+//url = {http://http//dx.doi.org/10.1007/978-3-319-28475-0_18},
+	author = {Mac{\'\i}as-Ramos, Luis Felipe and Mart{\'\i}nez-del Amor, Miguel {\'A}angle and P{\'e}rez-Jim{\'e}nez, Mario Jesus}
+}
+
+
+@article {extend-asnp-plingua-2015,
+	title = {{\textsc Extending Simulation of Asynchronous Spiking Neural P Systems in P{\textendash}Lingua}},
+	journal = {Fundamenta Informaticae},
+	volume = {136},
+	year = {2015},
+	pages = {253-267},
+	publisher = {IOS Press},
+	address = {Warsaw, Poland},
+	keywords = {Asynchronous mode, Membrane computing, P-Lingua, Spiking neural P system},
+	issn = {0169-2968},
+	//doi =  {10.3233/FI-2015-1156},
+	//url = {http://iospress.metapress.com/content/0677n447256h78x2/},
+	author = {Luis F. Mac{\'\i}as-Ramos and Mario J. P{\'e}rez-Jim{\'e}nez and Tao Song and Linqiang Pan}
+}
+
+ 
+@MISC{aoki-fujiwara-asynchronous-snp,
+ author = {Aoki, Shunsuke and Fujiwara, Akihiro},
+ title = {Asynchronous \uppercase{SN P} Systems For Sorting},
+ year = {2012}
+}
+
+@MISC{nvidia-cuda,
+ title = {\uppercase{NVIDIA CUDA}},
+ year = {2015},
+ howpublished = {\url{https://developer.nvidia.com/about-cuda}},
+ note = {Accessed: 2015-11-19},
+}
+
+
+@incollection{zeng-snpmatrix,
+author="Zeng, Xiangxiang
+and Adorna, Henry
+and Mart{\'i}nez-del-Amor, Miguel {\'A}ngel
+and Pan, Linqiang
+and P{\'e}rez-Jim{\'e}nez, Mario J.",
+editor="Gheorghe, Marian
+and Hinze, Thomas
+and P{\u{a}}un, Gheorghe
+and Rozenberg, Grzegorz
+and Salomaa, Arto",
+title={{\textsc Matrix Representation of Spiking Neural P Systems}},
+bookTitle="Membrane Computing: 11th International Conference, CMC 2010, Jena, Germany, August 24-27, 2010",
+year="2011",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="377--391",
+isbn="978-3-642-18123-8",
+doi="10.1007/978-3-642-18123-8_29",
+////url="http://dx.doi.org/10.1007/978-3-642-18123-8_29"
+}
+
+
+
+@article{Paun:2008:BSN:1466652.1466657,
+ author = {P\u{a}un, Gheorghe},
+ title = {Bibliography of Spiking Neural P Systems},
+ issue_date = {December  2008},
+ volume = {7},
+ number = {4},
+ month = dec,
+ year = {2008},
+ issn = {1567-7818},
+ pages = {551--553},
+ numpages = {3},
+ url = {http://dx.doi.org/10.1007/s11047-008-9080-1},
+ //doi =  {10.1007/s11047-008-9080-1},
+ acmid = {1466657},
+ publisher = {Kluwer Academic Publishers},
+ address = {Hingham, MA, USA},
+} 
+
+@article{Ceterchi:2008:ISN:1487713.1487716,
+ author = {Ceterchi, Rodica and Tomescu, Alexandru Ioan},
+ title = {Implementing Sorting Networks with Spiking Neural P Systems},
+ journal = {Fundam. Inf.},
+ issue_date = {November 2008},
+ volume = {87},
+ number = {1},
+ month = jan,
+ year = {2008},
+ issn = {0169-2968},
+ pages = {35--48},
+ numpages = {14},
+ url = {http://dl.acm.org/citation.cfm?id=1487713.1487716},
+ acmid = {1487716},
+ publisher = {IOS Press},
+ address = {Amsterdam, The Netherlands, The Netherlands},
+ keywords = {bitonic sort, membrane computing, optioptimal data layouts, sorting networks, spiking neural P systems},
+}
+
+@article {gpu-survey-2015,
+	title = {{\textsc Simulating P Systems on {\uppercase GPU} Devices: A Survey}},
+	journal = {Fundamenta Informaticae},
+	volume = {136},
+	year = {2015},
+	pages = {269-284},
+	publisher = {IOS Press},
+	address = {Warsaw, Poland},
+	keywords = {CUDA, GPU Computing, Membrane computing, P systems, parallel computing},
+	issn = {0169-2968},
+	//doi =  {10.3233/FI-2015-1157},
+	url = {http://iospress.metapress.com/content/101684hh3785365u/},
+	author = {Mart{\'i}nez-del Amor, M.A. and  Garc{\'\i}a-Quismondo, M. and Mac{\'\i}as-Ramos, L.F. and  Valencia-Cabrera, L. and  Riscos-N{\'u}{\~n}ez, A. and P{\'e}rez-Jim{\'e}nez, M.J.},
+}
+
+
+@article{martinez-del-amor-pdp,
+ author = {Martinez-Del-Amor, Miguel Angel and Macias-Ramos Luis Felipe and Perez-Jimenez, Mario J.},
+ title = {Parallel Simulation of \uppercase{PDP} Systems: Updates And Roadmaps},
+ journal = {13th Brainstorming Week on Membrane Computing, BWMC15, Seville, Spain},
+ year = {2015},
+ pages = {227--244},
+}
+
+
+@article{ionescu-sburlan-some-application,
+ author = {Ionescu, Mihai and Sburlan, Dragos},
+ title = {{\textsc Some Applications Of Spiking Neural P Systems}},
+ journal = {Computing and Informatics},
+ volume = {27},
+ year = {2008},
+ number = {3},
+ pages = {515--258},
+ numpages = {14},
+}
+
+@book{Rozenberg:2011:HNC:2016676,
+ author = {Rozenberg, Grzegorz and Bck, Thomas and Kok, Joost N.},
+ title = {Handbook of Natural Computing},
+ year = {2011},
+ isbn = {3540929096, 9783540929093},
+ edition = {1st},
+ publisher = {Springer Publishing Company, Incorporated},
+}
+
+@incollection{macias-ramos-plingua-2012, 
+ year={2012},
+ isbn={978-3-642-28023-8},
+ booktitle={Membrane Computing},
+ volume={7184},
+ series={Lecture Notes in Computer Science},
+ editor={Gheorghe, Marian and P\u{a}un, Gheorghe and Rozenberg, Grzegorz and Salomaa, Arto and Verlan, Sergey},
+ doi={10.1007/978-3-642-28024-5_18},
+ title={{\textsc A PLingua Based Simulator for Spiking Neural P Systems}},
+ ////url={http://dx.doi.org/10.1007/978-3-642-28024-5_18},
+ publisher={Springer Berlin Heidelberg},
+ author={Mac{\' i}as-Ramos, LuisF. and P{\' e}rez-Hurtado, Ignacio and Garc{\' i}a-Quismondo, Manuel and Valencia-Cabrera, Luis and P{\' e}rez-Jim{\' e}nez, MarioJ. and Riscos-N{\' u}{\~ n}ez, Agustín},
+ pages={257-281},
+ language={English}
+}
+
+@article{natural_computing_kari_rozenberg,
+ author = {Kari, Lila and Rozenberg, Grzegorz},
+ title = {The Many Facets of Natural Computing},
+ journal = {Commun. ACM},
+ issue_date = {October 2008},
+ volume = {51},
+ number = {10},
+ month = oct,
+ year = {2008},
+ issn = {0001-0782},
+ pages = {72--83},
+ numpages = {12},
+ url = {http://doi.acm.org/10.1145/1400181.1400200},
+ //doi =  {10.1145/1400181.1400200},
+ acmid = {1400200},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+@article{cusnp-pcsc-2016,
+ author = {Carandang, J.P. and Villaflores, J.M. and Cabarle,  Francis George Carreon and Adorna, H.},
+ title = {{\textsc Cu\uppercase{SNP}: Improvements on \uppercase{GPU} Simulations of Spiking Neural P Systems in \uppercase{CUDA}}},
+ year = {2016},
+ pages = {77--84},
+ journal = {Proc. 16th Philippine Computing Science Congress, 16--18 March, 2016, Puerto Princesa, Palawan, Philippines},
+ address = {Puerto Princesa, Palawan, Philippines},
+}
+
+@article{bwmc_ver,
+ author = {Carandang, J.P. and Villaflores, J.M. and Cabarle,  Francis George Carreon and Adorna, H. and Martínez-del-Amor, Miguel {\'A}ngel},
+ title = {Improvements on \uppercase{GPU} Simulations of Spiking Neural P Systems in \uppercase{CUDA} \uppercase{GPU}s: Cu\uppercase{SNP}:},
+ journal = {14th Brainstorming Week on Membrane Computing (to appear)},
+ address = {Sevilla, Spain},
+ year = {2016},
+}
+
+@MISC{nvidia-cuda-programming,
+ title = {\uppercase{CUDA C} Programming Guide},
+ year = {2015},
+ howpublished = {\url{http://docs.nvidia.com/cuda/cuda-c-programming-guide}},
+ note = {Accessed: 2015-11-19},
+}
+
+@MISC{cusnp-060616,
+title = {Cu\uppercase{SNP} version 06.06.16},
+year = {2016},
+howpublished = {\url{http://aclab.dcs.upd.edu.ph/productions/software/cusnp_v060616}},
+\note = {Accessed: 2016-06-06},
+}
+
+@article{ionescu-snp,
+ author = {Ionescu, Mihai and P\u{a}un, Gheorghe and Yokomori, Takashi},
+ title = {Spiking Neural P Systems},
+ journal = {Fundam. Inf.},
+ issue_date = {August 2006},
+ volume = {71},
+ number = {2,3},
+ month = feb,
+ year = {2006},
+ issn = {0169-2968},
+ pages = {279--308},
+ numpages = {30},
+ url = {http://dl.acm.org/citation.cfm?id=1227505.1227513},
+ acmid = {1227513},
+ publisher = {IOS Press},
+ address = {Amsterdam, The Netherlands, The Netherlands},
+ keywords = {Spiking neurons, Turing computability, membrane computing, semilinear set},
+} 
+
+@article{mc,
+ author = {P\u{a}un, Gheorghe},
+ title = {Computing with Membranes},
+ journal = {J. Comput. Syst. Sci.},
+ issue_date = {August.1.2000},
+ volume = {61},
+ number = {1},
+ month = aug,
+ year = {2000},
+ issn = {0022-0000},
+ pages = {108--143},
+ numpages = {36},
+//url = {http://dx.doi.org/10.1006/jcss.1999.1693},
+//doi =  {10.1006/jcss.1999.1693},
+ acmid = {353304},
+ publisher = {Academic Press, Inc.},
+ address = {Orlando, FL, USA},
+ keywords = {P system, matrix grammar, membrane structure, natural computing, recursively enumerable set, splicing},
+} 
+
+@book{paun-mc-introlibro-2002,
+author={Gheorghe P{\u a}un},
+title={{\textsc Membrane Computing: An Introduction}},
+publisher={Springer Berlin Heidelberg},
+address={Springer-Verlag Berlin Heidelberg},
+year={2002},
+//doi={10.1007/978-3-642-56196-2},
+//url={http://dx.doi.org/10.1007/978-3-642-56196-2},
+isbn={978-3-540-43601-0},
+}
+
+@book{mem-hand,
+	editor		=	"Gheorghe P{\u a}un and Gzegorz Rozenberg and Arto Salomaa",
+	title		=	"The Oxford Handbook of Membrane Computing",
+	publisher	=	"Oxford Univeristy Press",
+	isbn={978-0-19-955667-0},
+	year		=	"2010"
+}
+
+@misc{isi-erf,
+title={\uppercase{ISI} emerging research front, October 2003.},
+//note={\url{http://esi-topics.com/erf/october2003.html}},
+}
+
+@article{cusnp-acmc2016,
+ author = {Carandang, J.P. and Villaflores, J.M. and Cabarle,  Francis George Carreon and Adorna, H. and Mart{\'i}nez-del-Amor, Miguel {\'A}ngel},
+ title = {{\textsc CuSNP: Spiking Neural P Systems Simulators in CUDA}},
+ journal = {5th Asian Conference  on Membrane Computing 2016},
+ address = {Faculty of Information Science & Technology, Universiti Kebangsaan Malaysia, Bangi, Selangor, Malaysia},
+ year = {2016},
+}
+
+@ARTICLE{SNPwT, 
+author={X. Zeng and X. Zhang and T. Song and L. Pan}, 
+journal={Neural Computation}, 
+title={Spiking Neural P Systems with Thresholds}, 
+year={2014}, 
+volume={26}, 
+number={7}, 
+pages={1340-1361}, 
+doi={10.1162/NECO_a_00605}, 
+ISSN={0899-7667}, 
+month={July}
+}
+
+@ARTICLE{AXONP, 
+author="{X. Zhang and L. Pan and A.  P\u{a}un}", 
+journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+title={On the Universality of Axon P Systems}, 
+year={2015}, 
+volume={26}, 
+number={11}, 
+pages={2816-2829}, 
+keywords={biocomputing;biological motivation;computational power;computing units;function computing devices;impulse signals;linear structure;number generators;universal axon P system;Biomembranes;Computational modeling;Generators;Nerve fibers;Registers;Tin;Axon P system;bioinspired computing;membrane computing;neural-like computation;universality;universality.}, 
+doi={10.1109/TNNLS.2015.2396940}, 
+ISSN={2162-237X}, 
+month={Nov}}
