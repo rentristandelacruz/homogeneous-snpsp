@@ -79,7 +79,8 @@ Hunan University 410082, Changsha, China     \\
 
 \begin{abstract}
 
-Spiking neural P system (SNP System) is a model of computation inspired by the mechanism of a spiking neuron. An SNP system is a network of neurons
+Spiking neural P system (SNP System) is a model of computation inspired by the mechanism of spiking 
+neurons. An SNP system is a directed graph of neurons
 that can communicate with each other using an object known as a spike (the object spike represents action potential or nerve impulse).  Spiking neural 
 P systems with structural plasticity (SNPSP system) is a variant of the SNP system model. It incorporates the concept of structural plasticity to the
 SNP system model. SNPSP systems have the ability to add and delete connections between neurons. In SNPSP systems, the behavior of a neuron can be
@@ -551,7 +552,7 @@ We can use the same modules introduced in Section \ref{sec-gen-mode}. We only ne
 $10^{n-1}1$ (time difference between the spikes is $n$) and store the number ($n$) in the designated input register $r$. This input module will
 also start the computation of the register machine.
 
-Figure \ref{fig-input} shows the details of the INPUT module.
+Figure \ref{fig-input} shows the details of the INPUT module. The INPUT module works as follows:
 
 \begin{figure}
 \begin{center}
@@ -561,12 +562,12 @@ Figure \ref{fig-input} shows the details of the INPUT module.
 \end{center}
 \end{figure}   
 
-The INPUT module works as follows:
 
 \begin{enumerate}
-   \item Neuron $in_1$ receives the spike train $10^{n-1}1$ from the environment. Let assume the first spike is already at neuron $in_1$ time $0$
-         then second spike will be in the neuron at time $n$. At time $0$, neuron $in_1$ will activate \texttt{Rule 5}: $a^{z+1}/a \rightarrow a$  
-          sending one spike each to neurons $in_2, in_3, in_4, in_5,$ $ in_6$.
+   \item Neuron $in_1$ receives the spike train $10^{n-1}1$ from the environment. Let assume that 
+         the first spike is in neuron $in_1$ at time $0$ and second spike will be in neuron $in_1$ 
+         at time $n$. At time $0$, neuron $in_1$ will activate \texttt{Rule 5}: $a^{z+1}/a 
+         \rightarrow a$  sending one spike each to neurons $in_2, in_3, in_4, in_5,$ $ in_6$.
    \item At time $1$, neurons $in_4, in_5, in_6$ have $z+1$ spikes (the additional spike coming from neuron $in_1$). They will all use 
          \texttt{Rule 5} $a^{z+1}/a \rightarrow a$. Neuron $in_4$ will send a spike to neuron $in_5$, neuron $in_5$ will send a spike to neuron
          $in_6$ and neuron $in_6$ will send a spike to neuron $in_4$. These 3 neurons will also send a spike each to neuron $r$. This will increment
