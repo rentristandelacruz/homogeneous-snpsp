@@ -149,7 +149,7 @@ different derivation modes, or a combination of both. Aside from being inspired 
 features and mechanisms, some SNP system variants also adopt features from other (non-SNP) P 
 systems or get inspiration from other physical or biological phenomena. Other SNP system variants 
 can be found in   
- \cite{chen-2008-snp-e,alhazov-2006-esnp,chen-2007-axon-p,pan-2009-anti-spikes,song-2014-rules-on-synapses,metta-2014-cooperating-rules,wu-2016-cell-like,song-2016-request-rules,song-2016-white-hole-neurons,peng-2017-multiple-channels,pan-2017-communication-on-request,song-2018-colored-spikes}
+ \cite{chen-2008-snp-e,alhazov-2006-esnp,chen-2007-axon-p,pan-2009-anti-spikes,song-2014-rules-on-synapses,metta-2014-cooperating-rules,wu-2016-cell-like,song-2016-request-rules,pan-2017-communication-on-request,song-2018-colored-spikes}
 
 In terms of applications, SNP system models can be used to create solvers for both abstract/theoretical
 problems and practical problems. For abstract problems, in \cite{leporati-2008-snp-sat-subset-sum}, 
@@ -173,10 +173,10 @@ different sets of rules. The purpose of this work is to show that a universal SN
 the system use the same set of rules. We call such systems as \textit{homogeneous} SNPSP systems. It has been shown that universal homogeneous systems
 can be constructed using different SNP variants (see \cite{HSNP}, \cite{HISNP}, \cite{HSNP-R}, \cite{HSNP-S}, \cite{HSNP-A}).
 
-This work is organized as follows: In Section \ref{sec-prelims} we introduced preliminary concepts need to understand the main results namely the
+This work is organized as follows: In Section \ref{sec-prelims} we introduced preliminary concepts needed to understand the main results namely the
 basics of formal languages and regular language in Section \ref{sec-lang-reg} and the concept or register machines in Section \ref{sec-register}. In
-Section \ref{sec-snpsp} we formally define an SNPSP system. Section \ref{homogeneous-snpsp} contains the two main results of this work, the 
-construction of universal homogeneous SNPSP systems. Section \ref{sec-disc} contains the discussion of the results and some conclusions.
+Section \ref{sec-snpsp} we formally define an SNPSP system and a homogeneous SNPSP system. Section \ref{homogeneous-snpsp} contains the two main results of this work, 
+the  construction of universal homogeneous SNPSP systems. Section \ref{sec-disc} contains the discussion of the results and some conclusions.
 
 % ================================================================================================= %
 
@@ -383,7 +383,7 @@ We are going to use SNPSP system's `forgetting rules' to prove the main results 
 
 \subsection{Homogeneous SNPSP Systems}
 
-\begin{definition}[Homogeneous Spiking Neural P System with Structural Plasticity]
+\begin{definition}[Homogeneous SNPSP System]
 We call an SNPSP system $\Pi$ \textit{homogeneous} if all the neurons in the system have the same set of rules. That is, $R_1 = R_2 = ... = R_m$
 for $\sigma_i = (n_i, R_i)$ in system $\Pi$. $N_xHSNPSP$ is the family of all sets $N_x(\Pi)$ with $x \in \{2, acc\}$ such that $\Pi$ is a homogeneous
 SNPSP system.  
@@ -395,8 +395,8 @@ Section \ref{sec-forget}). Specifically, we are going to use plasticity rules of
 the neuron that contains the rule and $\sigma_w$ is an isolated neuron with no incoming or outgoing synapses. In Section \ref{sec-forget}, we write
 such rules as $E/a^c \rightarrow \lambda$. 
 
-Due to the syntax of plasticity rule ($E/a^c \rightarrow \alpha k (i, N)$), technically, no two plasticity rules from different neurons can be the
-same. i.e. In a system $\Pi$, if there are two SNPSP system `forgetting' rules, one in $\sigma_y$ and another in $\sigma_z$, then the `forgetting'
+Due to the syntax of plasticity rule ($E/a^c \rightarrow \alpha k (i, N)$), technically, no two plasticity rules from different neurons can be identical.
+For example, in a system $\Pi$, if there are two SNPSP system `forgetting' rules, one in $\sigma_y$ and another in $\sigma_z$, then the `forgetting'
 rule in $\sigma_y$ is technically  $E/a^c \rightarrow -1(y,\{w\})$ while the `forgetting' rule in $\sigma_z$ is technically $E/a^c \rightarrow -1(z,
 \{w\})$. Both rules have the same regular expression ($E$), consume the same amount ($c$) of spikes, and perform the same operation (defined 
 $\alpha = -, k=1, N=\{w\}$). The only difference between the two rules is the $i$ which specifies the label of the neuron where the rule is located.
@@ -599,7 +599,7 @@ $NRE = N_{acc}HSNPSP$
 converse inclusion $N_{acc}HSNPSP$ $\subseteq NRE$, we can invoked the Church-Turing thesis (similar to the argument in the proof of Theorem 
 \ref{theorem-1}. We will construct a homogeneous SNPSP system $\Pi$ that simulates a register machine $M=(m, H, l_0, l_h, I)$ working in accepting mode.
 
-We can use the same modules introduced in Section \ref{sec-gen-mode}. We only need to construct an input module that will take the spike train
+We can use the same modules introduced above. We only need to construct an input module that will take the spike train
 $10^{n-1}1$ (time difference between the spikes is $n$) and store the number ($n$) in the designated input register $r$. This input module will
 also start the computation of the register machine.
 
@@ -644,20 +644,12 @@ completes the proof of Theorem \ref{theorem-2}. $\square$
 \section{Discussion and Conclusions} \label{sec-disc}
 
 The values $x,y,z$ that are specified in the rules and as initial spike counts can have any values as long as the values do not make the languages
-defined by regular expressions intersect. i.e. For \texttt{Rule 4:} $a^{y+2}/a^2 \rightarrow a$ and \texttt{Rule 5:} $a^{z+1}/a \rightarrow a$, if 
+defined by regular expressions intersect. For example, for \texttt{Rule 4:} $a^{y+2}/a^2 \rightarrow a$ and \texttt{Rule 5:} $a^{z+1}/a \rightarrow a$, if 
 $y=1, z=2$, then the rules will be \texttt{Rule 4:} $a^{1+2}/a^2 \rightarrow a$ and \texttt{Rule 5:} $a^{2+1}/a \rightarrow a$ and the languages
-defined by their regular expressions intersect. This is not allowed. Also, the $x,y,z$ values should allow some spike count `gaps'. i.e. For neurons
-with initial spike $z$, spike count $z$ is a gap where no rules should be applicable. i.e. If $z=10, y=8$, then \texttt{Rule 4}: $a^{y+2}/a^2 
+defined by their regular expressions intersect. This is not allowed. Also, the $x,y,z$ values should allow some spike count `gaps'. For neurons
+with initial spike $z$, spike count $z$ is a spike count gap where no rules should be applicable. For example, if $z=10, y=8$, then \texttt{Rule 4}: $a^{y+2}/a^2 
 \rightarrow \lambda$ will be \texttt{Rule 4}: $a^{8+2}/a^2 \rightarrow \lambda$ which will then be used by neurons with initial spike count $z$. This
 is not allowed. An example of valid values for $x,y,z$ is $x=0, y=3, z=6$.
-
-The constructed systems use a rule set with 8 rules. In terms of neuron count, an ADD module has 6 neurons (7 if you include neuron $r'$ which is more
-associated with register $r$), a SUB module has 5 neurons, an HALT module and an OUT modules have 4 neurons combined, and the INPUT module has 6 
-neurons. We can compare this with a closely related homogeneous SNP system in \cite{HSNP}, the system in \cite{HSNP} has a rule set of with 7 rules. In
-terms of neuron count, its ADD module has 9 neurons, a SUB module has 5 neurons, the FIN module (similar to HALT+OUT) has 8 neurons, and an INPUT 
-module has 14 neurons. The homogeneous SNPSP (HSNPSP) system has 1 more rule than the homogeneous SNP (HSNP) system but has fewer neurons. HSNPSP system
-uses generalized forgetting rules and spiking rules while HSNP system uses standard forgetting rules and spiking rules with delay (at most 1 step 
-delay).
 
 One challenge in creating homogeneous SNPSP system lies in the nature of the plasticity rule. The component $N$ of the plasticity rule $E/a^c 
 \rightarrow \alpha k(i,N)$ specifies a set of target neurons. Essentially, some information about the (possible) local topology of the system is 
@@ -681,6 +673,53 @@ an SNP system's forgetting for reasons described in Section \ref{sec-forget}. Th
 with plasticity rules that uses only $\alpha = -$ or more generally one type of action (plasticity rules with $\alpha = +$ can also simulate 
 forgetting rules). It also implies that SNPSP system's spiking rules and  generalized forgetting rules are enough for universality.
 
+
+When you look at the sizes (number of neurons and number or rules) of a homogeneous system and a 
+non-homogeneous system that perform that same task, the homogeneous system tends to be larger.
+This is obvious when in comes to the number of rules. A neuron in the homogeneous system should 
+contain all the functionalities of different neurons in the non-homogeneous system. The rule set of
+the neuron in the homogeneous system is, in a sense, some form of combination of the different 
+rule sets in the non-homogeneous system. When in comes to the number of neurons, homogeneous systems
+also tend to be larger compared to non-homogeneous systems. For example, if you look at the SNP
+system in \cite{ionescu-2006-snp} that simulates a register machine, the ADD module has 4 neurons, 
+the SUB module has 3 neurons, and FIN module has 7 neurons. For the homegeneous SNP version in
+\cite{HSNP}, the ADD module has 9 neurons, the SUB module has 6 neurons, the FIN module has 7 neurons.
+The same can be observed when comparing the SNPSP system in \cite{cabarle-2015-structural-plasticity}
+the homogeneous SNPSP system described in Section \ref{homogeneous-snpsp}. The SNPSP system in
+\cite{cabarle-2015-structural-plasticity} uses 4 neurons per ADD module, 5 neurons per SUB module,
+and 2 neurons for the FIN module while the homogeneous SNPSP system above uses 6 neurons per ADD
+module, 5 neurons per SUB module, and 4 neurons for the FIN/HALT module. Again, the same can be
+observed when you compare the SNP system with anti-spikes in \cite{pan-2009-anti-spikes} to its
+homogeneous counterpart in \cite{HSNP-A}.
+
+In homogeneous SNP/SNPSP systems, there is a tendency for information to be represented with more
+spikes. For example, the SNP system in \cite{ionescu-2006-snp} represents the number $n$ stored in
+register $r$ as $2n$ spikes stored in neuron $\sigma_r$ while the same number is represented as 
+$5n$ spikes in the homogeneous SNP system version. In the SNPSP system in 
+\cite{cabarle-2015-structural-plasticity}, number $n$ in register $r$ is represented as $2n$ spikes
+while the same number is represented as $z+3n$ spikes in the homogeneous SNPSP system described 
+above. In the SNP system with anti-spikes in \cite{pan-2009-anti-spikes}, the number is represented
+as $n$ spikes while in the homogeneous version in \cite{HSNP-A} the same number is represented as
+$n+6$ spikes. This is the direct result of combining rule sets in homogeneous systems. More spikes
+are needed to represent information. As a consequence of this, more neurons are needed to produce 
+those additional spikes needed.
+
+Homogeneous SNP systems and SNPSP systems are more realistic than non-homogeneous systems since 
+biological neurons are identical to each other in the sense that they all have the same behavior.
+Neurons in SNP systems or SNPSP systems are not necessarily identical since you can program each
+neuron in the system using different sets of rules. One advantage of using a homogeneous system is
+the fact that all the programming that you need to do is on the level of the  network of neurons and 
+not on the level of the individual neurons. To program a homogeneous SNP/SNPSP system is to 
+configure the network of identical neurons. This advantage is particularly noticeable when you want 
+to use homogeneous SNP/SNPSP systems for a learning task (similar to the learning task performed 
+when training an artificial neural network). A learning task involves configuring the system in 
+order for the system to fit some data (find pattern in the data). A learning algorithm for a 
+homogeneous SNP/SNPSP systems is simpler since it only needs to configure the network of neurons.
+On the other hand, a learning algorithm for non-homogeneous SNP/SNPSP systems needs to have the
+ability to configure individual neurons which makes the algorithm much more complex.  
+
+ 
+
 % ================================================================================================= %
 
 \section*{Declarations}
@@ -690,7 +729,7 @@ On behalf of all authors, the corresponding author states that there is no confl
 
 \subsection*{Funding and Acknowledgements}
 R.T.A. de la Cruz and I.C.H. Macababayao  are grateful for the Philippine's Department of Science and Technology - Science Education Institute (DOST-SEI)'s support 
-through the Engineering Reasearch and Development for Technology (ERDT)'s graduate scholarship program.
+through the Engineering Research and Development for Technology (ERDT)'s graduate scholarship program.
 F.G.C. Cabarle thanks the support from the DOST-ERDT project; the Dean Ruben A. Garcia PCA AY2018--2019, and an RLC AY2018--2019 grant of the OVCRD, both from UP Diliman.
 H. Adorna would like to thank supports from DOST-ERDT project since 2009 until present; the Semirara Mining Corp. Professorial Chair Award since 2015 until present. The RLC  grant from UPD - OVCRD 2019-2020.
 The work was supported by the Basic Research Program of Science and Technology of Shenzhen (JCYJ20180306172637807).
