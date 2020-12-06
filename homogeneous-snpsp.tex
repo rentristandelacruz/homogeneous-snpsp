@@ -4,6 +4,7 @@
 \documentclass[smallextended]{svjour3}
 \smartqed
 
+
 \usepackage{verbatim}
 \usepackage{amssymb}
 \usepackage{graphicx} 
@@ -22,6 +23,7 @@
 \urldef{\mailsc}\path|ivan.cedric10@gmail.com|
 \urldef{\mailsd}\path|hnadorna@dcs.upd.edu.ph|
 \urldef{\mailse}\path|zxxhust@gmail.com|
+
 
 % ================================================================================================= %
 
@@ -95,7 +97,7 @@ construct a universal SNPSP system where all the neurons in the system use the s
 
 % ================================================================================================= %
 
-\section{Introduction}
+\section{Background}
 
 \textit{Membrane computing} is an area of theoretical computer science that studies family of related models of computation known as \textit{P systems}.
 \textit{P systems} are unconventional models of computation that are biologically-inspired (see \cite{HANDBOOK}. They were introduced formally by 
@@ -103,20 +105,65 @@ Gheorghe P\u{a}un in \cite{mc} (the `P' in P systems stands for P\u{a}un). P sys
 that are inspired by the internal works of a cell (cell-like systems), models inspired by a group of cells (tissue-like systems), and models inspired 
 by group of neurons (neural-like systems).
 
+Neural-like P systems known as \textit{spiking neural P systems} (SNP systems) were introduced in
+\cite{ionescu-2006-snp}. They are inspired by the workings of a network of spiking neuron. The 
+computing elements (processors) of SNP systems are called \textit{neurons}. The neurons also store 
+information, each neuron can store a multiset of object called a \textit{spike}. An SNP system is a 
+network of such neurons. The neurons are connected to each other using \textit{synapses}. We 
+sometime will refer to this model as \textit{classic} or \textit{standard} SNP system since there 
+are already a lot of SNP system variants that have been introduced.
 
-Neural-like P systems known as \textit{spiking neural P systems} (SNP systems) were introduced in \cite{SNP}. They are inspired by the workings of a
-network of spiking neuron. The computing elements (processors) of SNP systems are called \textit{neurons}. The neurons also store information, each
-neuron can store a multiset of object called a \textit{spike}. An SNP system is a network of such neurons. The neurons are connected to each other 
-using \textit{synapses}. We sometime will refer to this model as \textit{classic} or \textit{standard} SNP system since there are already a lot of
-SNP system variants that have been introduced.
+The standard SNP system is based on an simplified and highly abstracted mechanisms of a spiking 
+neuron. There are many features and mechanism in the biological neural system that are good sources
+of inspiration for the creation of new SNP system variants. Similar to the standard SNP systems, 
+other SNP system variants take some features or mechanisms from the biological neural system, 
+abstract and simplify them, and then incorporate the simplified features/mechanisms in the models.
+Some examples of these variants are: SNP systems with weighted synapses \cite{wang-2010-weights}
+\cite{pan-2012-weighted-synapses}, SNP systems with inhibitory rules \cite{peng-2019-inhibitory-rules},
+SNP systems with astrocytes \cite{paun-2007-astrocyte-like} \cite{pan-2012-astrocytes}, SNP systems
+with neuron division, budding, and dissolution \cite{wang-2011-neuron-division,pan-2011-division-budding,zhao-2016-division-dissolution}, 
+SNP systems with dynamics synapses \cite{cabarle-2015-structural-plasticity,cabarle-2017-scheduled-synapses},
+SNP systems with polarizations \cite{wu-2018-polarizations}, and SNP systems with thresholds
+\cite{zeng-2014-thresholds}.
 
-The standard SNP system is based on an simplified and highly abstracted mechanisms of a spiking neuron. There are many features in the brain that are 
-good sources of inspiration for the creating of new variants of SNP systems. \textit{e.g.} inhibitory impulses, weighted synapses, neuron division, 
-threshold mechanism, astrocytes, neuron budding, axons, \emph{etc}. Many variants of SNP systems that use these features have been introduced (see 
-\cite{pan-snpweight-2012,paun-astroc-snp-2007,song-snp-syn-2014,wang-snpweights-2010,pan-anti-snp-2009,pan-astro-snp-2012,wu-cellsnp-2016,SNPwT,song-pan-rulsyn-maxspik-2015,AXONP}).
+SNP system models, in general, are parallel and distributed models of computation. It is possible to
+apply multiple operations (\emph{rules} in SNP systems) at the same time. This is the parallel
+aspect of the model. Operations/rules can also be distributed in the system which means different
+rules can affect different parts of the SNP system (different rules affect different sets of 
+neurons). The \emph{derivation mode} of an SNP system defines which combinations (multisets) of 
+rules are valid. The usual derivation mode of SNP systems is \emph{minimal parallelism} or
+\emph{minimally parallel mode}. In this mode, for every step of the computation, if there is at 
+least one rule in the neuron that is applicable, the neuron must use a rule once. A combination of
+applicable rules that includes multiple rules from the same neuron is not valid in this 
+minimally parallel mode. Another invalid combination of rules is the one that applies a rule in
+a neuron multiples times. SNP system variants can have the same set of features but only differ in
+the derivation mode used by the variants. For example, SNP systems in \cite{ionescu-2007-exhaustive}
+use exhaustive mode, SNP systems in \cite{cavaliere-2009-asynchronous} use asynchronous mode, SNP
+systems in \cite{ibarra-2009-min-max-sequential} use sequential mode, SNP systems in \cite{song-2013-local-sync}
+use asynchronous mode with local synchronization, and SNP systems in  
+\cite{zhang-2014-general-rule-use,jiang-2019-improved-usnp-general-rule-use} use a generalized 
+derivation mode.
+
+SNP system variants are different from each other because they have different features (e.g. types of rules),
+different derivation modes, or a combination of both. Aside from being inspired by neural system 
+features and mechanisms, some SNP system variants also adopt features from other (non-SNP) P 
+systems or get inspiration from other physical or biological phenomena. Other SNP system variants 
+can be found in   
+ \cite{chen-2008-snp-e,alhazov-2006-esnp,chen-2007-axon-p,pan-2009-anti-spikes,song-2014-rules-on-synapses,metta-2014-cooperating-rules,wu-2016-cell-like,song-2016-request-rules,song-2016-white-hole-neurons,peng-2017-multiple-channels,pan-2017-communication-on-request,song-2018-colored-spikes}
+
+In terms of applications, SNP system models can be used to create solvers for both abstract/theoretical
+problems and practical problems. For abstract problems, in \cite{leporati-2008-snp-sat-subset-sum}, 
+SNP systems were used to create solvers for the \emph{satisfiability} problem and the \emph{subset sum} problem
+while in \cite{ishdorj-2010-snp-qsat-q3sat}, SNP systems were used to solve \emph{quantified satisfiability}
+and \emph{quantified 3-satisfiability} problems. For practical problems, SNP system models have been
+used for image processing \cite{diaz-pernil-2019-mc-image-proc,diaz-pernil-2013-snp-skeleton,song-2019-snp-weights-skeleton},
+fault diagnosis for systems \cite{peng-2013-fuzzy-snp,peng-2013-fuzzy-snp-fault},
+designing arithmetic circuits \cite{ochirbat-2020-snp-adder,xu-2014-snp-arithmetic-circuits},
+solving optimization problems \cite{zhang-2014-optimization-snp}, and performing tasks \cite{song-2019-learning-functions}.
+A recent survey of SNP system  applications can be found in \cite{fan-2020-snp-app-survey}.
 
 In this work, we going to focus on a variant of SNP system is known as \textit{spiking neural P system with structural plasticity} (SNPSP system) 
-introduced in \cite{SNPSP}. SNPSP system uses the feature of the brain known as  \textit{structural plasticity}. Structural plasticity is the ability
+introduced in \cite{cabarle-2015-structural-plasticity}. SNPSP system uses the feature of the brain known as  \textit{structural plasticity}. Structural plasticity is the ability
 of the brain to rewire itself. Structural plasticity includes \textit{synaptogenesis} and \textit{synaptic pruning}. Synaptogenesis is the creation of 
 synapses while synaptic pruning is the deletion of existing synapses. These features give the SNPSP systems the ability to change their structure 
 which is not possible for standard SNP systems and some other variants.
@@ -162,7 +209,7 @@ x \in L(E_1) \cup \{\lambda\} \text{ and } y \in L(E_1^*)\}$.
 
 \textit{Register machines}, also known in literature as counter machines or program machines, are models of computation that use \textit{registers} to
 store information (non-negative integers). The particular register machine model that we will use is the same register machine model described in 
-Section 3 in \cite{SNP}. This register machine performs two main types of instruction: $ADD$ and $SUB$. An $ADD$ instruction increases the value 
+Section 3 in \cite{ionescu-2006-snp}. This register machine performs two main types of instruction: $ADD$ and $SUB$. An $ADD$ instruction increases the value 
 stored in a specified register by 1 while a $SUB$ instruction decreases the value in a specified register by 1 (if the value is not yet 0). A third 
 type of  instruction known as $HALT$ will stop the entire operation of the machine when executed.
     
@@ -203,8 +250,11 @@ It has been proven in \cite{MINSKY} that register machines compute (generate/acc
 
 \section{Spiking Neural P Systems with Structural Plasticity}\label{sec-snpsp}
 
+
+\begin{definition}[Spiking Neural P System with Structural Plasticity]
+
 Spiking neural P system with structural plasticity (SNPSP system) is a variant of the classic spiking neural P system (SNP system) model. SNPSP 
-systems were introduced in \cite{SNPSP}. Formally, an SNPSP system $\Pi$ of degree $m \geq 1$ is  {a} construct: $\Pi =(O, \sigma_1,\ldots, \sigma_m, 
+systems were introduced in \cite{cabarle-2015-structural-plasticity}. Formally, an SNPSP system $\Pi$ of degree $m \geq 1$ is  {a} construct: $\Pi =(O, \sigma_1,\ldots, \sigma_m, 
 syn, in, out)$, where:
 
 \begin{itemize}[label=$\circ$]
@@ -221,7 +271,9 @@ syn, in, out)$, where:
    \item $syn \subseteq \{1,\ldots,m\} \times \{1,\ldots,m\}$, with $(i,i) \not\in syn$, is the set of initial \textit{synapses} between neurons.
    \item $in,out$ are neuron labels that indicate the input and output neurons respectively.
 \end{itemize}
-  
+ 
+\end{definition}
+ 
 % ================================================================================================= %
 
  
@@ -306,7 +358,7 @@ environment, if the output neuron spikes the system is said to output `1' at tha
 
 % ================================================================================================= %
 
-\subsection{SNPSP System's `Forgetting Rule'} \label{sec-forget}
+\subsection{Modified Forgetting Rule} \label{sec-forget}
 
 There is a rule type in SNP systems known as \textit{forgetting rule}. A \textit{forgetting rule} has the form $a^s \rightarrow \lambda$. The rule
 can be applied when the neuron contains $s$ spikes. If activated, a forgetting rule simply consumes $s$ spikes on the same step the rule was activated
@@ -329,15 +381,14 @@ We are going to use SNPSP system's `forgetting rules' to prove the main results 
 
 % ================================================================================================= %
 
-\section{Homogeneous Spiking Neural P Systems with Structural Plasticity} \label{homogeneous-snpsp}
+\subsection{Homogeneous SNPSP Systems}
 
-% ================================================================================================= %
-
-\subsection{Homogeneity of an SNPSP System}
-
+\begin{definition}[Homogeneous Spiking Neural P System with Structural Plasticity]
 We call an SNPSP system $\Pi$ \textit{homogeneous} if all the neurons in the system have the same set of rules. That is, $R_1 = R_2 = ... = R_m$
 for $\sigma_i = (n_i, R_i)$ in system $\Pi$. $N_xHSNPSP$ is the family of all sets $N_x(\Pi)$ with $x \in \{2, acc\}$ such that $\Pi$ is a homogeneous
 SNPSP system.  
+
+\end{definition}
 
 In the following sections, the only plasticity rules that we are going to use are the ones the simulate SNP system's forgetting rule (as described in
 Section \ref{sec-forget}). Specifically, we are going to use plasticity rules of the form $E/a^c \rightarrow -1(i,\{w\})$ where $i$ is the label of
@@ -352,9 +403,10 @@ $\alpha = -, k=1, N=\{w\}$). The only difference between the two rules is the $i
 If $i$ (which specifies the neuron containing the rule) is the only difference between a plasticity rule from one neuron to another plasticity rule
 in another neuron, then we consider those two rules as the same rule since their behavior is the same.
 
+
 % ================================================================================================= %
 
-\subsection{Universality of Homogeneous SNPSP Systems in Generating Mode}\label{sec-gen-mode}
+\section{Universality of Homogeneous SNPSP Systems} \label{homogeneous-snpsp}
 
 \begin{theorem}\label{theorem-1}
 $NRE = N_2HSNPSP$ 
@@ -539,7 +591,6 @@ behavior of a register machine $M.$ $\square$
 
 % ================================================================================================= %
 
-\subsection{Universality of Homogeneous SNPSP Systems in Accepting Mode}\label{sec-accept}.
 \begin{theorem} \label{theorem-2}
 $NRE = N_{acc}HSNPSP$ 
 \end{theorem}
@@ -650,3 +701,7 @@ The work was supported by the Basic Research Program of Science and Technology o
 \bibliography{homogeneous-snpsp}
 
 \end{document}
+
+% ================================================================================================= %
+
+
